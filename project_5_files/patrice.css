@@ -1,0 +1,90 @@
+/* 
+	Global classes 
+					*/
+
+body {
+background-image: url("images/iphoneOL.jpg");
+background-repeat: no-repeat;
+font-family: Poppins, sans-serif;
+}
+
+
+#screen {
+height: 530px;
+width: 300px;
+margin: 105px 23px;
+}
+
+.head-bar {
+text-align: left;
+padding-left: 10px;
+padding-top: 10px;
+text-shadow:1px 1.5px black;
+}
+
+
+.brand-name-r {
+    height: 70px;
+    width: 300px;
+    text-align: center;
+    padding-top: 125px;
+}
+
+.brand-name-l {
+    height: 95px;
+    width: 300px;
+    text-align: center;
+    padding-top: 65px;
+}
+
+.login-logo{
+    height: 80px;
+}
+
+.app-name{
+    height: 50px;
+}
+
+.paragraph{
+    float: left;
+    text-align: left;
+    font-size: 11px;
+    padding-left: 40px;
+}
+
+.option{
+    font-size: 8px;
+    padding: 5px 40px 20px 40px;
+    text-align: center;
+}
+
+.input{
+    width: 250px;
+    height: 100px;
+    align-content: center;
+    padding: 5px 5px 20px 40px;
+}
+
+#entry{
+    display: inline-block;
+    border: 0.25px solid #abadb3;
+    border-style: none none solid none;
+    height: 30px;
+    width: 200px;
+}
+
+.continue-button{
+    padding: 0px 0px 0px 125px;
+}
+
+button{  
+  background-color: #77dbf4; 
+  border: none;
+  color: #5b5757;
+  padding: 8px 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
