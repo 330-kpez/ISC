@@ -1,0 +1,278 @@
+/* 
+	Global classes 
+					*/
+
+body {
+background-image: url("images/iphoneOL.jpg");
+background-repeat: no-repeat;
+font-family: Avenir, sans-serif;
+}
+
+
+#screen {
+height: 530px;
+width: 300px;
+margin: 105px 23px;
+}
+
+.head-bar {
+text-align: center;
+background-color:#e6ccff; 
+color:white;
+height:45px;
+width:300px;
+text-shadow:1px 1.5px black;
+}
+
+.albums{
+height:30%;
+width:45%;
+display:inline-block;
+margin-left:auto;
+margin-right:auto;
+margin-top:25px;
+padding-left:8.5px;
+vertical-align:top;
+text-align: center;
+}
+
+.album-lower{
+margin-top:70px;
+}
+main{
+outline:5px solid green;
+height:475px;
+width:95%;
+margin-top:10px;
+border-top:green;
+}
+
+img{
+width:100%;
+height:138px;
+margin:0;
+}
+/* 
+Albums 
+    */
+
+.album-name {
+margin-top:8px;
+margin-bottom:0px;
+font-weight: 850;
+font-size:18px;
+
+}
+
+.album-artist {
+margin-top:1px;
+padding-top:0px;
+font-size:14px;
+font-style: italic;
+font-weight:620;
+
+
+}
+
+
+/* 
+Songs 
+    */
+.top{
+display:inline-block;
+width:45%;
+margin:0px;
+padding:0px;
+margin-bottom:5px;
+vertical-align:top;
+text-align:left;
+}
+.image{
+padding:7px;
+height:150px;
+}
+
+.album-info{
+height:162px;
+}
+
+ol{
+margin-top:0px;
+margin-left:0px;
+padding-left:29px;
+
+}
+li{
+margin-top:9px;
+outline:1px solid rgb(184, 183, 183);
+width:90%;
+padding-left:2px;
+}
+
+.backbutton{
+margin-left:-211px;
+justify-content: left;
+height:35px;
+width:70px;
+font-size:25px;
+margin-top:5px;
+color:rgb(66, 0, 66);
+background-color:rgb(187, 185, 185);
+outline:1px solid white;
+font-weight:bold;
+}
+
+.backbutton a{
+text-decoration: none;
+}
+
+#title{
+font-weight: 850;
+font-size:25px;
+margin-bottom:2px;
+margin-left:4px;
+margin-top:15px;
+}
+
+#artist{
+font-style: italic;
+margin-left:4px;
+
+}
+#year{
+margin-left:4px;
+
+}
+
+
+
+/* 
+Player 
+    */
+.player-album-art {
+width:230px;
+margin-left:35px;
+margin-top:30px;
+height:230px;
+}
+#playerbackbutton{
+margin-left:10px;
+border-top: 4px solid #e6ccff;
+}
+
+#playerbackbutton i{
+margin-top:5px;
+color:rgb(66, 0, 66);
+}
+
+#player-content{
+text-align:center;
+}
+#player-song-title{
+font-size:20px;
+margin-top:8px;
+}
+#player-album-name{
+color:purple;
+margin-top:-15px;
+}
+
+input{
+width:80%;
+margin-left:32px;
+}
+
+#time-in{
+margin-left:30px;
+font-size:15px;
+}
+
+#time-left{
+margin-left:180px;
+font-size:15px;
+}
+
+#time-in, #time-left{
+display:inline-block;
+padding:0px;
+height:10px;
+vertical-align:top;
+margin-top:-5px;
+}
+
+#speaker{
+display:inline-block;
+}
+#skip-buttons{
+text-align:center;
+margin-top:-5px;
+}
+
+.volume-icons{
+height:6px;
+width:24px;
+border:1px solid black;
+margin-left:5px;
+margin-bottom:7px;
+display:inline-block;
+background:white;
+}
+
+#vl0,#vl1,#vl2,#vl3,#vl4,#vl5{
+background:white;
+}
+#volume{
+text-align:center;
+}
+
+#volUp{
+margin-left:80px;
+margin-right:0px;
+padding:0px;
+}
+
+#volDown{
+margin-right:0px;
+margin-left:32px;
+}
+#volUp,#volDown{
+width:80px;
+display:inline-block;
+vertical-align:top;
+font-weight:bold;
+}
+.player-song-info {
+
+}
+
+#player-song-name {
+
+}
+
+.volume-bar {
+
+}
+
+.volume-level {
+
+}
+
+.volume-rocker {
+
+}
+
+.player-controls{
+
+}
+
+#player-time {
+
+}
+
+#time-elapsed {
+
+}
+
+#time-total{
+
+}
