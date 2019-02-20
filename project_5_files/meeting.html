@@ -1,18 +1,41 @@
 <html>
 <header>
-  <title>Music Player</title>
-  <link rel="stylesheet" type="text/css" href="INSERT CSS FILE NAME HERE" />
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>Schedule Meeting</title>
+  <link rel="stylesheet" type="text/css" href="meeting.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Poppins" rel="stylesheet">
 </header>
-
 <body>
   <div id="screen">
+    <div class="head-bar">
+      <div class="back-button">
+        <a href="contacts.html">
+          <img src="images/baseline-navigate_before-24px.svg">
+        </a>
+      </div>
+    </div>
+    <div class = "title">
+      <text>Meeting with Ellie</text>
+    </div>
+    <div class = "meeting_info">
+      <div class = "meeting_duration">
+        <input id="dropdown" onclick="dropdown_function()" placeholder="Meeting Duration"></input>
+        <div id="dropdown_content" class = "meeting_times">
+          <button class = "dropdown_button"><text class="dropdown_text">30 minutes</text></button>
+          <button class = "dropdown_button" onclick="onehr_function()"><text class="dropdown_text">1 hour</text></button>
+          <button class = "dropdown_button"><text class="dropdown_text">2 hour</text></button>
+          <button class = "dropdown_button"><text class="dropdown_text">3 hour</text></button>
+        </div>
+      </div>
+      <div class="meeting_day">
+        <text>Days</text>
+      </div>
 
+
+    </div>
   </div>
-  <script src="ipod.js"></script>
+  <script src="meeting.js"></script>
 </body>
-
 </html>
-<!-- 
+<!--
 * bg iphone img is 363x762px
 * iphone 'screen' is apprx 300x530 -->

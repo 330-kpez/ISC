@@ -1,0 +1,70 @@
+body {
+background-image: url("images/iphoneOL.jpg");
+background-repeat: no-repeat;
+font-family: Poppins, sans-serif;
+}
+
+
+#screen {
+height: 530px;
+width: 300px;
+margin: 105px 23px;
+}
+
+.head-bar {
+text-align: left;
+padding-left: 10px;
+padding-top: 10px;
+text-shadow:1px 1.5px black;
+}
+
+.title {
+font-family: Poppins, sans-serif;
+color: #77dbf4;
+text-align: center;
+}
+
+.meeting_info{
+  margin-top: 50px;
+  width: 200px;
+  height: 100px;
+  align-content: center;
+  padding: 5px 5px 20px 40px;
+}
+#dropdown{
+    display: block;
+    border: 0.25px solid #abadb3;
+    border-style: none none solid none;
+    height: 30px;
+    width: 200px;
+}
+
+.meeting_times {
+  display: none;
+  position: absolute;
+}
+
+.meeting_times button {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.meeting_times button:hover {background-color:#77dbf4}
+
+.meeting_duration {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown_button{
+  height: 30px;
+  width: 200px;
+  background-color: white;
+  text-align: center;
+  align-content: center;
+
+}
+
+.show {display: block;}
