@@ -19,6 +19,7 @@ text-shadow:1px 1.5px black;
 }
 
 .title {
+margin-top: 50px;
 font-family: Poppins, sans-serif;
 color: #77dbf4;
 text-align: center;
