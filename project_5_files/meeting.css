@@ -107,6 +107,16 @@ text-align: center;
 
 }
 
+.colorchanger{
+  background: white;
+  width: 15px;
+  height:15px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  border: 1.2px solid black;
+
+}
+
 .continue_container{
   align-content: center;
   padding-left: 80px;
