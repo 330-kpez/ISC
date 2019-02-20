@@ -50,41 +50,80 @@ text-shadow:1px 1.5px black;
     text-align: left;
     font-size: 11px;
     padding-left: 40px;
+    color: #5b5757;
 }
 
 .option{
     font-size: 8px;
     padding: 5px 40px 20px 40px;
     text-align: center;
+    color: #5b5757;
 }
 
 .input{
     width: 250px;
     height: 100px;
     align-content: center;
-    padding: 5px 5px 20px 40px;
+    padding: 5px 20px 9px 40px;
 }
 
 #entry{
     display: inline-block;
-    border: 0.25px solid #abadb3;
+    border: 0.25px solid #5b5757;
     border-style: none none solid none;
-    height: 30px;
+    height: 25px;
     width: 200px;
+    color: #5b5757;
+    font-family: Poppins, sans-serif;
+    font-size: 10px;
+    padding-top: 4px;
+    margin-bottom: 4px;
+}
+
+#check-notis{
+    margin-top: 8px;
+    float: left;
+
+}
+#check-contacts{
+    margin-top: 5px;
+}
+
+#checkbox1{
+    float: left;
+    margin-top: 9px;
+}
+
+.check{
+    display: inline-block;
+    height: 10px;
+    width: 200px;
+    font-family: Poppins, sans-serif;
+    font-size: 9px;
+    padding: 40px 40px 0px 38px;
+}
+
+.check p{
+    color: #5b5757;
 }
 
 .continue-button{
-    padding: 0px 0px 0px 125px;
+    padding: 50px 0px 0px 118px;
 }
 
 button{
   background-color: #77dbf4;
   border: none;
   color: #5b5757;
-  padding: 8px 5px;
+  padding: 6px 10px;
   text-align: center;
   text-decoration: none;
   font-size: 12px;
   border-radius: 4px;
   margin-right: 10px;
+<<<<<<< HEAD
+  font-family: Poppins, sans-serif;
 }
+=======
+}
+>>>>>>> project_6
