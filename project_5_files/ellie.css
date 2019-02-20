@@ -1,0 +1,139 @@
+/*
+	Global classes
+					*/
+
+body {
+background-image: url("images/iphoneOL.jpg");
+background-repeat: no-repeat;
+font-family: Poppins, sans-serif;
+/*background-image: url("logo.jpeg");*/
+}
+
+#screen {
+height: 530px;
+width: 300px;
+margin: 105px 23px;
+}
+
+.header {
+  border-bottom: 1px solid #a09c9c;
+
+
+}
+
+.head-bar {
+color: #77dbf4;
+text-align: center;
+width: 240px;
+margin-left: 1px;
+padding-left: 27px;
+padding-top: 10px;
+height: 45px;
+}
+
+
+#colorchanger{
+  background: white;
+  width: 15px;
+  height:15px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  border: 1.2px solid black;
+
+}
+
+
+#footer {
+height: 60px;
+border-top: 1px solid black;
+
+}
+
+#footer i{
+height: 100%;
+width: 96px;
+display: inline-block;
+text-align: center;
+margin-left: 0px;
+margin-right: 0px;
+font-size: 40px;
+color: #77dbf4;
+padding-top: 10px;
+
+}
+
+#footer a{
+height: 100px;
+
+}
+
+
+
+/*.welcome{
+padding-top: 10px;
+text-align: center;
+color: #77dbf4;
+text: bold;
+font-size: 24px;
+text-decoration: underline;
+}*/
+
+.material-icons{
+padding-left: 138px;
+padding-top: 140px;
+font-size: 100px;
+}
+
+
+.schedule {
+margin-top:12px;
+margin-bottom:0px;
+font-weight: 200;
+font-size:22px;
+margin-left: 10px;
+color: #77dbf4;
+
+}
+
+.events {
+margin-top:-10px;
+padding-top:-10px;
+padding-left: 20px;
+font-size:15px;
+font-style: italic;
+font-weight:620;
+margin-left: 0px;
+color: #5b5757;
+}
+
+/*.checks {
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  height: 16px;
+  width: 16px;
+  display: inline;
+}*/
+
+
+/*
+Songs
+    */
+.top{
+display:inline-block;
+width:45%;
+margin:0px;
+padding:0px;
+margin-bottom:5px;
+vertical-align:top;
+text-align:left;
+}
+.image{
+padding:7px;
+height:150px;
+}
+
+.album-info{
+height:162px;
+}
