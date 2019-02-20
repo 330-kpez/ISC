@@ -1,5 +1,5 @@
-/* 
-	Global classes 
+/*
+	Global classes
 					*/
 
 body {
@@ -111,8 +111,8 @@ text-shadow:1px 1.5px black;
     padding: 50px 0px 0px 118px;
 }
 
-button{  
-  background-color: #77dbf4; 
+button{
+  background-color: #77dbf4;
   border: none;
   color: #5b5757;
   padding: 6px 10px;
@@ -121,5 +121,9 @@ button{
   font-size: 12px;
   border-radius: 4px;
   margin-right: 10px;
+<<<<<<< HEAD
   font-family: Poppins, sans-serif;
 }
+=======
+}
+>>>>>>> project_6
