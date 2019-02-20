@@ -34,7 +34,8 @@ text-align: center;
 }
 #dropdown{
     display: block;
-    border: 0.25px solid #abadb3;
+    color: #5b5757;
+    border: 0.25px solid #5b5757;
     border-style: none none solid none;
     height: 30px;
     width: 200px;
@@ -46,10 +47,13 @@ text-align: center;
 }
 
 .meeting_times button {
-  color: black;
+  color: #5b5757;
   padding: 12px 16px;
+  background: white;
   text-decoration: none;
   display: block;
+  border-width: 0px .1px .1px .1px;
+  border-color: #5b5757;
 }
 
 .meeting_times button:hover {background-color:#77dbf4}
@@ -113,7 +117,12 @@ text-align: center;
   height:15px;
   margin-bottom: 5px;
   margin-top: 5px;
+<<<<<<< HEAD
   border: 1.2px solid black;
+=======
+  border: 1.2px solid #5b5757;
+
+>>>>>>> d28fc24d3e8c3ba09cbf9ef3ddca916e31f64450
 }
 
 .continue_container{
