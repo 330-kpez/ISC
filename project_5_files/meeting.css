@@ -64,7 +64,51 @@ text-align: center;
   background-color: white;
   text-align: center;
   align-content: center;
+}
 
+.meeting_day{
+  display: block;
+}
+.days_container{
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.day{
+  width: 28.5px;
+  float: left;
+  margin: auto;
+  align-items: center;
+}
+
+.day_text{
+  width: 28.5px;
+  font-size: 10px;
+  font-family: Poppins, sans-serif;
+  color: #5b5757;
+  padding-left: 5px;
+}
+
+.day_button{
+  padding-left: 5px;
+}
+
+.continue_button{
+  background-color: #77dbf4;
+  border: none;
+  color: #5b5757;
+  padding: 8px 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  border-radius: 4px;
+  margin-right: 10px;
+
+}
+
+.continue_container{
+  align-content: center;
+  padding-left: 80px;
 }
 
 .show {display: block;}
