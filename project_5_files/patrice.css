@@ -1,5 +1,5 @@
-/* 
-	Global classes 
+/*
+	Global classes
 					*/
 
 body {
@@ -77,8 +77,8 @@ text-shadow:1px 1.5px black;
     padding: 0px 0px 0px 125px;
 }
 
-button{  
-  background-color: #77dbf4; 
+button{
+  background-color: #77dbf4;
   border: none;
   color: #5b5757;
   padding: 8px 5px;
