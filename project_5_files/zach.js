@@ -9,7 +9,7 @@ document.getElementById("colorchanger1").onclick = function()
 {
     console.log('hello')
   //circleColor is global variable that saves the state of the circle
-    if(document.getElementById("colorchanger1").style.background == "white")
+    if(squareColor1 == "white")
     {
         console.log('yes');
         squareColor1 = "#77dbf4"
@@ -25,7 +25,7 @@ document.getElementById("colorchanger1").onclick = function()
 {
     console.log('hello')
   //circleColor is global variable that saves the state of the circle
-  if(document.getElementById("colorchanger2").style.background == "white")
+  if(squareColor2 == "white")
    {
     console.log('yes');
      squareColor2 = "#77dbf4"
@@ -40,7 +40,7 @@ document.getElementById("colorchanger1").onclick = function()
 {
     console.log('hello')
   //circleColor is global variable that saves the state of the circle
-  if(document.getElementById("colorchanger3").style.background == "white")
+  if(squareColor3 == "white")
    {
     console.log('yes');
      squareColor3 = "#77dbf4"
@@ -55,7 +55,7 @@ document.getElementById("colorchanger1").onclick = function()
 {
     console.log('hello')
   //circleColor is global variable that saves the state of the circle
-  if(document.getElementById("colorchanger4").style.background == "white")
+  if(squareColor4 == "white")
    {
     console.log('yes');
      squareColor4 = "#77dbf4"
@@ -70,7 +70,7 @@ document.getElementById("colorchanger1").onclick = function()
 {
     console.log('hello')
   //circleColor is global variable that saves the state of the circle
-  if(document.getElementById("colorchanger5").style.background == "white")
+  if(squareColor5 == "white")
    {
     console.log('yes');
      squareColor5 = "#77dbf4"
@@ -85,7 +85,7 @@ document.getElementById("colorchanger1").onclick = function()
 {
     console.log('hello')
   //circleColor is global variable that saves the state of the circle
-  if(document.getElementById("colorchanger6").style.background == "white")
+  if(squareColor6 == "white")
    {
        console.log('yes');
      squareColor6 = "#77dbf4"
