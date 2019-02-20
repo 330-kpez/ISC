@@ -10,7 +10,9 @@ height: 530px;
 width: 300px;
 margin: 105px 23px;
 }
-
+.back_button{
+  background: #5b5757;
+}
 .head-bar {
 text-align: left;
 padding-left: 10px;
@@ -102,12 +104,13 @@ text-align: center;
   background-color: #77dbf4;
   border: none;
   color: #5b5757;
-  padding: 8px 5px;
+  padding: 6px 10px;
   text-align: center;
   text-decoration: none;
   font-size: 12px;
   border-radius: 4px;
   margin-right: 10px;
+  font-family: Poppins, sans-serif;
 
 }
 
@@ -117,8 +120,12 @@ text-align: center;
   height:15px;
   margin-bottom: 5px;
   margin-top: 5px;
+<<<<<<< HEAD
+  border: 1.2px solid black;
+=======
   border: 1.2px solid #5b5757;
 
+>>>>>>> d28fc24d3e8c3ba09cbf9ef3ddca916e31f64450
 }
 
 .continue_container{
