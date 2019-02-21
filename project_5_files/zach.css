@@ -1,5 +1,5 @@
-/* 
-Global classes 
+/*
+Global classes
 */
 *{
     font-family:Poppins, sans-serif;
@@ -10,21 +10,43 @@ background-repeat: no-repeat;
 font-family: Avenir, sans-serif;
 }
 
+.header {
+  border-bottom: 1px solid #a09c9c;
+}
+
+.head-bar {
+color: #77dbf4;
+text-align: center;
+width: 240px;
+margin-left: 1px;
+padding-left: 27px;
+padding-top: 10px;
+height: 45px;
+}
+.back-button i{
+    color: #5b5757;
+    text-shadow: none;
+  }
 #header{
     color: #77dbf4;;
     text-align:center;
-    width:240px;;
+    width:272px;;
     margin-left:1px;
     padding-top:10px;
+    padding-left:27px;
     height:45px;
     border-bottom:1px solid #a09c9c
+}
+
+#header img{
+    width:240px;
+    margin-right:32px;
 }
 
 .login-logo{
     height:100%;
     width:100%;
 }
-
 #screen {
 height: 530px;
 width: 300px;
@@ -226,17 +248,18 @@ p.ptop{
     margin-left:-15px;
 }
 #person img{
-    width:30%;
-    margin-top:10px;
-    margin-bottom:10px;
+    width:23%;
+    margin-top:15px;
+    margin-bottom:0px;
     height:70px;
-    padding-right:80px;
+    margin-right:90px;
+    border-radius:50%;
 }
 
 #bottom{
     margin-top:4px;
     border-top:1px solid grey;
-    height:205px;
+    height:210px;
     overflow:scroll;
 }
 
@@ -304,42 +327,42 @@ p.ptop{
     width: 15px;
     height:15px;
     border-radius:50%;
-    border: 1.2px dotted #5b5757;
+    border: 1.2px solid #5b5757;
 }
 #colorchanger2{
     background: white;
     width: 15px;
     height:15px;
     border-radius:50%;
-    border: 1.2px dotted #5b5757;
+    border: 1.2px solid #5b5757;
 }
 #colorchanger3{
     background: white;
     width: 15px;
     height:15px;
     border-radius:50%;
-    border: 1.2px dotted #5b5757;
+    border: 1.2px solid #5b5757;
 }
 #colorchanger4{
     background: white;
     width: 15px;
     height:15px;
     border-radius:50%;
-    border: 1.2px dotted #5b5757;
+    border: 1.2px solid #5b5757;
 }
 #colorchanger5{
     background: white;
     width: 15px;
     height:15px;
     border-radius:50%;
-    border: 1.2px dotted #5b5757;
+    border: 1.2px solid #5b5757;
 }
 #colorchanger6{
     background: white;
     width: 15px;
     height:15px;
     border-radius:50%;
-    border: 1.2px dotted #5b5757;
+    border: 1.2px solid #5b5757;
 }
 #backbutton{
     margin-left:-10px;
