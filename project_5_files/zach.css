@@ -10,7 +10,6 @@ background-repeat: no-repeat;
 font-family: Avenir, sans-serif;
 }
 
-<<<<<<< HEAD
 .header {
   border-bottom: 1px solid #a09c9c;
 }
@@ -47,7 +46,6 @@ height: 45px;
 .login-logo{
     height:100%;
     width:100%;
->>>>>>> 32c1496195e04ba7ae78dbc5c00e370e1bad5411
 }
 #screen {
 height: 530px;
@@ -254,7 +252,7 @@ p.ptop{
     margin-top:15px;
     margin-bottom:0px;
     height:70px;
-    padding-right:90px;
+    margin-right:90px;
     border-radius:50%;
 }
 
