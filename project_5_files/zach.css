@@ -10,6 +10,7 @@ background-repeat: no-repeat;
 font-family: Avenir, sans-serif;
 }
 
+<<<<<<< HEAD
 .header {
   border-bottom: 1px solid #a09c9c;
 }
@@ -26,6 +27,27 @@ height: 45px;
 .back-button i{
     color: #5b5757;
     text-shadow: none;
+=======
+#header{
+    color: #77dbf4;;
+    text-align:center;
+    width:272px;;
+    margin-left:1px;
+    padding-top:10px;
+    padding-left:27px;
+    height:45px;
+    border-bottom:1px solid #a09c9c
+}
+
+#header img{
+    width:240px;
+    margin-right:32px;
+}
+
+.login-logo{
+    height:100%;
+    width:100%;
+>>>>>>> 32c1496195e04ba7ae78dbc5c00e370e1bad5411
 }
 #screen {
 height: 530px;
@@ -228,17 +250,18 @@ p.ptop{
     margin-left:-15px;
 }
 #person img{
-    width:30%;
-    margin-top:10px;
-    margin-bottom:10px;
+    width:23%;
+    margin-top:15px;
+    margin-bottom:0px;
     height:70px;
-    padding-right:80px;
+    padding-right:90px;
+    border-radius:50%;
 }
 
 #bottom{
     margin-top:4px;
     border-top:1px solid grey;
-    height:205px;
+    height:210px;
     overflow:scroll;
 }
 
