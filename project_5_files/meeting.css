@@ -142,6 +142,12 @@ font-size: 20px;
 
 }
 
+.continue_container2{
+  margin-left: 125px;
+
+}
+
+
 .show {display: block;}
 
 .schedule {
@@ -164,6 +170,7 @@ font-size:14px;
 font-weight:620;
 margin-left: 0px;
 color: #5b5757;
+margin-bottom: 40px;
 }
 
 .time {
