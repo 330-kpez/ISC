@@ -131,6 +131,7 @@ Person
 
 #person i, #person p{
     display:inline-block;
+    color: #5b5757;
 }
 
 i, p{
@@ -266,6 +267,7 @@ p.ptop{
 #bottom h5{
     font-size:15px;
     margin-left:7px;
+    color: #5b5757;
 }
 
 #bottom p{
@@ -279,6 +281,7 @@ p.ptop{
 
 .checkbox,p{
     display:inline-block;
+    color: #5b5757;
 }
 #bottom input{
     background-color:#77dbf4;
