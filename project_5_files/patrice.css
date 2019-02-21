@@ -66,7 +66,7 @@ text-shadow:1px 1.5px black;
 
 .input{
     width: 250px;
-    height: 100px;
+    height: 130px;
     align-content: center;
     padding: 5px 20px 9px 40px;
 }
@@ -104,7 +104,7 @@ text-shadow:1px 1.5px black;
     width: 200px;
     font-family: Poppins, sans-serif;
     font-size: 9px;
-    padding: 40px 40px 0px 38px;
+    padding: 15px 40px 0px 38px;
 }
 
 .check p{
