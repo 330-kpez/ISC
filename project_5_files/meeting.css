@@ -11,11 +11,23 @@ width: 300px;
 margin: 105px 23px;
 }
 
+.header {
+  border-bottom: 1px solid #a09c9c;
+}
+
 .head-bar {
-text-align: left;
-padding-left: 10px;
+color: #77dbf4;
+text-align: center;
+width: 240px;
+margin-left: 1px;
+padding-left: 27px;
 padding-top: 10px;
-text-shadow:1px 1.5px black;
+height: 45px;
+}
+.back-button i{
+    color: #5b5757;
+    text-shadow: none;
+    padding-right: 55px;
 }
 
 .title {
@@ -23,18 +35,21 @@ margin-top: 50px;
 font-family: Poppins, sans-serif;
 color: #77dbf4;
 text-align: center;
+font-size: 20px;
 }
 
 .meeting_info{
-  margin-top: 50px;
+  margin-top: 30px;
+  margin-left: 45px;
   width: 200px;
   height: 100px;
   align-content: center;
-  padding: 5px 5px 20px 40px;
+  padding: 10px 5px 30px 5px;
 }
 #dropdown{
     display: block;
-    border: 0.25px solid #abadb3;
+    color: #5b5757;
+    border: 0.25px solid #5b5757;
     border-style: none none solid none;
     height: 30px;
     width: 200px;
@@ -46,10 +61,13 @@ text-align: center;
 }
 
 .meeting_times button {
-  color: black;
+  color: #5b5757;
   padding: 12px 16px;
+  background: white;
   text-decoration: none;
   display: block;
+  border-width: 0px .1px .1px .1px;
+  border-color: #5b5757;
 }
 
 .meeting_times button:hover {background-color:#77dbf4}
@@ -98,12 +116,13 @@ text-align: center;
   background-color: #77dbf4;
   border: none;
   color: #5b5757;
-  padding: 8px 5px;
+  padding: 6px 10px;
   text-align: center;
   text-decoration: none;
   font-size: 12px;
   border-radius: 4px;
   margin-right: 10px;
+  font-family: Poppins, sans-serif;
 
 }
 
@@ -113,13 +132,54 @@ text-align: center;
   height:15px;
   margin-bottom: 5px;
   margin-top: 5px;
-  border: 1.2px solid black;
+  border-radius: 50%;
+  border: 1.2px solid #5b5757;
 
 }
 
 .continue_container{
-  align-content: center;
-  padding-left: 80px;
+  padding-left: 69px;
+
 }
 
+.continue_container2{
+  margin-left: 125px;
+
+}
+
+
 .show {display: block;}
+
+.schedule {
+display: flex;
+margin-top:0px;
+margin-bottom:0px;
+font-weight: 200;
+font-size:20px;
+color:  #5b5757;
+background-image:linear-gradient(rgba(119, 219, 244, 0.568),rgba(255, 255, 255, 0.753));
+width: 299px;
+text-align: center;
+}
+
+.events {
+margin-top:-10px;
+padding-top:-10px;
+padding-left: 20px;
+font-size:14px;
+font-weight:620;
+margin-left: 0px;
+color: #5b5757;
+margin-bottom: 40px;
+}
+
+.time {
+  margin-top:-15px;
+  padding-top:-20px;
+  padding-left: 20px;
+  font-size:10px;
+  font-weight:620;
+  margin-left: 0px;
+  color: #5b5757;
+
+}

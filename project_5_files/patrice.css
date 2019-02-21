@@ -22,6 +22,10 @@ padding-top: 10px;
 text-shadow:1px 1.5px black;
 }
 
+.back-button i{
+    color: #5b5757;
+    text-shadow: none;
+}
 
 .brand-name-r {
     height: 70px;
@@ -121,9 +125,4 @@ button{
   font-size: 12px;
   border-radius: 4px;
   margin-right: 10px;
-<<<<<<< HEAD
-  font-family: Poppins, sans-serif;
 }
-=======
-}
->>>>>>> project_6

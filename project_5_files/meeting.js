@@ -15,6 +15,19 @@ function onehr_function(){
   document.getElementById("dropdown_content").classList.toggle("show");
   document.getElementById("dropdown").placeholder = "1 hour";
 }
+function twohr_function(){
+  document.getElementById("dropdown_content").classList.toggle("show");
+  document.getElementById("dropdown").placeholder = "2 hours";
+}
+function threehr_function(){
+  document.getElementById("dropdown_content").classList.toggle("show");
+  document.getElementById("dropdown").placeholder = "3 hours";
+}
+function thirtym_function(){
+  document.getElementById("dropdown_content").classList.toggle("show");
+  document.getElementById("dropdown").placeholder = "30 minutes";
+}
+
 
 function d1_function(){
 

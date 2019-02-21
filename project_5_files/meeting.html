@@ -2,16 +2,19 @@
 <header>
   <title>Schedule Meeting</title>
   <link rel="stylesheet" type="text/css" href="meeting.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Poppins" rel="stylesheet">
 </header>
 <body>
   <div id="screen">
-    <div class="head-bar">
-      <div class="back-button">
-        <a href="contacts.html">
-          <img src="images/baseline-navigate_before-24px.svg">
-        </a>
-      </div>
+    <div class="header">
+      <img class= "head-bar" src="images/name.png">
+    </div>
+    <div class="back-button">
+      <a href="person.html">
+        <i class="material-icons" id="second">navigate_before</i>
+      </a>
     </div>
     <div class = "title">
       <text>Meeting with Ellie</text>
@@ -20,63 +23,61 @@
       <div class = "meeting_duration">
         <input id="dropdown" onclick="dropdown_function()" placeholder="Meeting Duration"></input>
         <div id="dropdown_content" class = "meeting_times">
-          <button class = "dropdown_button" ><text class="dropdown_text">30 minutes</text></button>
+          <button class = "dropdown_button" onclick="thirtym_function()"><text class="dropdown_text" >30 minutes</text></button>
           <button class = "dropdown_button" onclick="onehr_function()"><text class="dropdown_text">1 hour</text></button>
-          <button class = "dropdown_button"><text class="dropdown_text">2 hour</text></button>
-          <button class = "dropdown_button"><text class="dropdown_text">3 hour</text></button>
+          <button class = "dropdown_button" onclick="twohr_function()"><text class="dropdown_text">2 hour</text></button>
+          <button class = "dropdown_button" onclick="threehr_function()"><text class="dropdown_text">3 hour</text></button>
         </div>
       </div>
-        <div class="days_container">
-          <div class = "day">
-            <text class = "day_text">Mon</text>
-            <div class = "day_button">
-              <button class="colorchanger" id="d1" onclick="d1_function()"></button>
-            </div>
-          </div>
-          <div class = "day">
-            <text class = "day_text">Tue</text>
-            <div class = "day_button">
-              <button class="colorchanger" id="d2" onclick="d2_function()"></button>
-            </div>
-          </div>
-          <div class = "day">
-            <text class = "day_text">Wed</text>
-            <div class = "day_button">
-              <button class="colorchanger" id="d3" onclick="d3_function()"></button>
-            </div>
-          </div>
-          <div class = "day">
-            <text class = "day_text">Thu</text>
-            <div class = "day_button">
-              <button class="colorchanger" id="d4" onclick="d4_function()"> </button>
-            </div>
-          </div>
-          <div class = "day">
-            <text class = "day_text">Fri</text>
-            <div class = "day_button">
-              <button class="colorchanger" id="d5" onclick="d5_function()"></button>
-            </div>
-          </div>
-          <div class = "day">
-            <text class = "day_text">Sat</text>
-            <div class = "day_button">
-              <button class="colorchanger" id="d6" onclick="d6_function()"></button>
-            </div>
-          </div>
-          <div class = "day">
-            <text class = "day_text">Sun</text>
-            <div class = "day_button">
-              <button class="colorchanger" id="d7" onclick="d7_function()"></button>
-            </div>
+      <div class="days_container">
+        <div class = "day">
+          <text class = "day_text">Mon</text>
+          <div class = "day_button">
+            <button class="colorchanger" id="d1" onclick="d1_function()"></button>
           </div>
         </div>
-        <div>
-          <a class="continue_container" href="meeting2.html">
-            <button id="continuebttn" class="continue_button">Let's Go</button>
-          </a>
+        <div class = "day">
+          <text class = "day_text">Tue</text>
+          <div class = "day_button">
+            <button class="colorchanger" id="d2" onclick="d2_function()"></button>
+          </div>
         </div>
-
-
+        <div class = "day">
+          <text class = "day_text">Wed</text>
+          <div class = "day_button">
+            <button class="colorchanger" id="d3" onclick="d3_function()"></button>
+          </div>
+        </div>
+        <div class = "day">
+          <text class = "day_text">Thu</text>
+          <div class = "day_button">
+            <button class="colorchanger" id="d4" onclick="d4_function()"> </button>
+          </div>
+        </div>
+        <div class = "day">
+          <text class = "day_text">Fri</text>
+          <div class = "day_button">
+            <button class="colorchanger" id="d5" onclick="d5_function()"></button>
+          </div>
+        </div>
+        <div class = "day">
+          <text class = "day_text">Sat</text>
+          <div class = "day_button">
+            <button class="colorchanger" id="d6" onclick="d6_function()"></button>
+          </div>
+        </div>
+        <div class = "day">
+          <text class = "day_text">Sun</text>
+          <div class = "day_button">
+            <button class="colorchanger" id="d7" onclick="d7_function()"></button>
+          </div>
+        </div>
+      </div>
+      <div>
+        <a class="continue_container" href="meeting2.html">
+          <button id="continuebttn" class="continue_button">Let's Go</button>
+        </a>
+      </div>
     </div>
   </div>
   <script src="meeting.js"></script>

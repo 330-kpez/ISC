@@ -1,0 +1,373 @@
+/*
+Global classes
+*/
+*{
+    font-family:Poppins, sans-serif;
+}
+body {
+background-image: url("images/iphoneOL.jpg");
+background-repeat: no-repeat;
+font-family: Avenir, sans-serif;
+}
+
+.header {
+  border-bottom: 1px solid #a09c9c;
+}
+
+.head-bar {
+color: #77dbf4;
+text-align: center;
+width: 240px;
+margin-left: 1px;
+padding-left: 27px;
+padding-top: 10px;
+height: 45px;
+}
+.back-button i{
+    color: #5b5757;
+    text-shadow: none;
+  }
+#header{
+    color: #77dbf4;;
+    text-align:center;
+    width:272px;;
+    margin-left:1px;
+    padding-top:10px;
+    padding-left:27px;
+    height:45px;
+    border-bottom:1px solid #a09c9c
+}
+
+#header img{
+    width:240px;
+    margin-right:32px;
+}
+
+.login-logo{
+    height:100%;
+    width:100%;
+}
+#screen {
+height: 530px;
+width: 300px;
+margin: 105px 23px;
+}
+
+
+#content p{
+    margin-left:1px;
+    margin-right:0px;
+    margin-bottom:0px;
+    margin-top:2px;
+    border-bottom:1px solid #5b5757;
+    padding-top:2px;
+    padding-bottom:2px;
+    width:296px;
+    border-left:none;
+    padding-left:2px;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size:14px;/*text-decoration:underline;*/
+    color: #5b5757;
+}
+#content .letter p{
+    border-left:none;
+    color: #5b5757;
+}
+#content .letter{
+    margin-top:0px;
+    padding-top:0px;
+    color: #5b5757;
+}
+h3{
+    margin-bottom:4px;
+    text-align:center;
+    margin-top:0px;
+    color: #5b5757;
+}
+#content{
+    margin-top:0px;
+    padding-top:0px;
+    height:420px;
+    overflow:scroll;
+    color: #5b5757;
+}
+
+#letter_a{
+    border-top:1px solid #5b5757;
+}
+#content h3{
+    padding-bottom:2px;
+}
+a{
+    text-decoration: none;
+    color: #5b5757;
+}
+h1{
+    margin-bottom:0px;
+    padding-bottom:0px;
+    margin-top:0px;
+    font-family: Poppins, sans-serif;
+    color: #5b5757;
+}
+#footer{
+    height:60px;
+    border-top:1px solid #5b5757;
+}
+
+
+#footer i{
+    height:100%;
+    width:96px;
+    display:inline-block;
+    text-align:center;
+    margin-left:0px;
+    margin-right:0px;
+    font-size:40px;
+    color:#77dbf4;
+    padding-top:10px;
+
+}
+#footer a{
+    height:100px;
+}
+.letter{
+    background-image: linear-gradient(rgba(119, 219, 244, 0.568),rgba(255, 255, 255, 0.753));
+    margin-bottom:0px;
+}
+/*
+Person
+*/
+
+#person{
+    text-align:center;
+}
+#person h3{
+    margin-top:0px;
+    color: #5b5757;
+}
+#person p{
+    margin-top:1px;
+    margin-bottom:0px;
+    color: #5b5757;
+}
+
+#person i, #person p{
+    display:inline-block;
+    color: #5b5757;
+}
+
+i, p{
+    vertical-align:top;
+}
+
+#person i{
+    width:20px;
+    color: #5b5757;
+}
+
+#content2{
+    margin-top:0px;
+    padding-top:0px;
+    height:420px;
+}
+.icon_text p{
+    margin-left:10px;
+    font-size:14px;
+    color: #5b5757;
+}
+#call_buttons{
+    margin-top:3px;
+}
+#person button{
+    margin-left:5px;
+    margin-right:5px;
+    border-radius:5px;
+    vertical-align:top;
+    margin-top:2px;
+    background-color:#77dbf4;
+    outline:none;
+    border:none;
+    height:25px;
+    color: #5b5757;
+}
+
+#call_buttons a{
+    color: #5b5757;
+}
+
+#left, #right{
+    display:inline-block;
+    width:149px;
+    margin:-2px;
+    text-align:center;
+    height:100%;
+    vertical-align:top;
+    border-top:1px solid black;
+}
+h5{
+    margin-top:5px;
+    margin-bottom:7px;
+}
+#left{
+    margin-left:1px;
+    border-right:1px solid black;
+    height:129px;
+}
+
+.chats i, .chats p{
+    display:inline-block;
+    vertical-align:top;
+}
+.chats i{
+    width:20px;
+    margin-left:0px;
+}
+.chats p{
+    width:90px;
+    font-size:12px;
+    margin-top:3px;
+}
+.chats_right i, .chats_right p, .chats_right .ptop{
+    display:inline-block;
+    vertical-align:top;
+}
+.chats_right i{
+    width:20px;
+    margin-left:5px;
+}
+.chats_right p{
+    width:5px;
+    font-size:12px;
+    margin-top:5px;
+    margin-left:-18px;
+    margin-right:21px;
+}
+p.ptop{
+    width:102px;
+    padding:0px;
+    margin-left:-15px;
+}
+#person img{
+    width:23%;
+    margin-top:15px;
+    margin-bottom:0px;
+    height:70px;
+    margin-right:90px;
+    border-radius:50%;
+}
+
+#bottom{
+    margin-top:4px;
+    border-top:1px solid grey;
+    height:210px;
+    overflow:scroll;
+}
+
+#bottom p, #bottom .checkbox, #bottom h4{
+    margin-bottom:0px;
+    padding:0px;
+    margin-top:0px;
+    color: #5b5757;
+}
+#bottom h4{
+    text-align:center;
+    font-size:17px;
+    margin-top:7px;
+    color: #5b5757;
+}
+
+.checkbox{
+    display:block;
+    margin-top:20px;
+    margin-bottom:10px;
+    border-radius:50%;
+    margin-left:15px;
+    background:#77dbf4;
+}
+#bottom{
+    font-size:13px;
+}
+#bottom h5{
+    font-size:15px;
+    margin-left:7px;
+    color: #5b5757;
+}
+
+#bottom p{
+    color: #5b5757;
+    margin-left:8px;
+}
+.mark{
+    background:#77dbf4;
+}
+
+
+.checkbox,p{
+    display:inline-block;
+    color: #5b5757;
+}
+#bottom input{
+    background-color:#77dbf4;
+    color:#77dbf4;
+}
+.container input:checked ~ .mark{
+    background-color: #77dbf4;
+    color: #77dbf4;
+}
+.checkbox span{
+    background-color:#77dbf4;
+    color:#77dbf4;
+}
+
+#bottom button{
+    margin-left:15px;
+}
+#colorchanger1{
+    background: white;
+    width: 15px;
+    height:15px;
+    border-radius:50%;
+    border: 1.2px solid #5b5757;
+}
+#colorchanger2{
+    background: white;
+    width: 15px;
+    height:15px;
+    border-radius:50%;
+    border: 1.2px solid #5b5757;
+}
+#colorchanger3{
+    background: white;
+    width: 15px;
+    height:15px;
+    border-radius:50%;
+    border: 1.2px solid #5b5757;
+}
+#colorchanger4{
+    background: white;
+    width: 15px;
+    height:15px;
+    border-radius:50%;
+    border: 1.2px solid #5b5757;
+}
+#colorchanger5{
+    background: white;
+    width: 15px;
+    height:15px;
+    border-radius:50%;
+    border: 1.2px solid #5b5757;
+}
+#colorchanger6{
+    background: white;
+    width: 15px;
+    height:15px;
+    border-radius:50%;
+    border: 1.2px solid #5b5757;
+}
+#backbutton{
+    margin-left:-10px;
+    padding-right:40px;
+    padding-top:5px;
+    margin-right:35px;
+    font-size: 15px;
+}
