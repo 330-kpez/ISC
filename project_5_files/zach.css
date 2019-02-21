@@ -1,5 +1,5 @@
-/* 
-Global classes 
+/*
+Global classes
 */
 *{
     font-family:Poppins, sans-serif;
@@ -10,21 +10,23 @@ background-repeat: no-repeat;
 font-family: Avenir, sans-serif;
 }
 
-#header{
-    color: #77dbf4;;
-    text-align:center;
-    width:240px;;
-    margin-left:1px;
-    padding-top:10px;
-    height:45px;
-    border-bottom:1px solid #a09c9c
+.header {
+  border-bottom: 1px solid #a09c9c;
 }
 
-.login-logo{
-    height:100%;
-    width:100%;
+.head-bar {
+color: #77dbf4;
+text-align: center;
+width: 240px;
+margin-left: 1px;
+padding-left: 27px;
+padding-top: 10px;
+height: 45px;
 }
-
+.back-button i{
+    color: #5b5757;
+    text-shadow: none;
+}
 #screen {
 height: 530px;
 width: 300px;
@@ -304,42 +306,42 @@ p.ptop{
     width: 15px;
     height:15px;
     border-radius:50%;
-    border: 1.2px dotted #5b5757;
+    border: 1.2px solid #5b5757;
 }
 #colorchanger2{
     background: white;
     width: 15px;
     height:15px;
     border-radius:50%;
-    border: 1.2px dotted #5b5757;
+    border: 1.2px solid #5b5757;
 }
 #colorchanger3{
     background: white;
     width: 15px;
     height:15px;
     border-radius:50%;
-    border: 1.2px dotted #5b5757;
+    border: 1.2px solid #5b5757;
 }
 #colorchanger4{
     background: white;
     width: 15px;
     height:15px;
     border-radius:50%;
-    border: 1.2px dotted #5b5757;
+    border: 1.2px solid #5b5757;
 }
 #colorchanger5{
     background: white;
     width: 15px;
     height:15px;
     border-radius:50%;
-    border: 1.2px dotted #5b5757;
+    border: 1.2px solid #5b5757;
 }
 #colorchanger6{
     background: white;
     width: 15px;
     height:15px;
     border-radius:50%;
-    border: 1.2px dotted #5b5757;
+    border: 1.2px solid #5b5757;
 }
 #backbutton{
     margin-left:-10px;

@@ -2,16 +2,44 @@
 <header>
   <title>Schedule Meeting</title>
   <link rel="stylesheet" type="text/css" href="meeting.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Poppins" rel="stylesheet">
 </header>
 <body>
   <div id="screen">
-    <div class="head-bar">
+    <div class="header">
+      <img class= "head-bar" src="images/name.png">
+    </div>
+
+    <div class="schedule">
       <div class="back-button">
         <a href="meeting.html">
-          <img src="images/baseline-navigate_before-24px.svg">
+          <i class="material-icons" id="second">navigate_before</i>
         </a>
       </div>
+      Today
+    </div>
+
+    <div class="events">
+
+        <p> <button class="colorchanger" id="d1" onclick="d1_function()"></button>
+        Coffee with Tom </p>
+        <div class="time">
+          <p> 10:30am </p>
+        </div>
+
+        <p> <button class="colorchanger" id="d2" onclick="d2_function()"></button>
+        Call Mom </p>
+        <div class="time">
+          <p> 2:45pm </p>
+        </div>
+
+        <p> <button class="colorchanger" id="d3" onclick="d3_function()"></button>
+        Meet with Sarah </p>
+        <div class="time">
+          <p> 4:00pm </p>
+        </div>
     </div>
   </div>
   <script src="meeting.js"></script>
