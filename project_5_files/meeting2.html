@@ -12,7 +12,7 @@
       <img class= "head-bar" src="images/name.png">
     </div>
 
-    <div class="schedule">
+    <div class="schedule" id= "scheduleid">
       <div class="back-button">
         <a href="meeting.html">
           <i class="material-icons" id="second">navigate_before</i>
@@ -21,7 +21,7 @@
       Meeting Times
     </div>
 
-    <div class="events">
+    <div class="events" id="eventsid">
 
         <p> <button class="colorchanger" id="d1" onclick="d1_function()"></button>
         Wednesday 21th </p>
@@ -41,9 +41,17 @@
           <p> 4:00pm </p>
         </div>
     </div>
-    <div >
-      <a class="continue_container2" href="home.html">
-        <button id="continuebttn" class="continue_button">Let's Go</button>
+    <div class="continue_container2">
+
+        <button id="continuebttn" class="continue_button" onclick="complete_function()">Let's Go</button>
+
+    </div>
+    <div class="completion" id="compid">
+      <div class = "completion_text">
+      <text>Meeting added to your Calendar</text>
+    </div>
+      <a href = "home.html" class= "continue_container3">
+        <button class="continue_button">Let's Go</button>
       </a>
     </div>
   </div>
