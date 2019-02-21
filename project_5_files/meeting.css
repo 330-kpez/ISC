@@ -120,8 +120,13 @@ text-align: center;
   height:15px;
   margin-bottom: 5px;
   margin-top: 5px;
+<<<<<<< HEAD
   border: 1.2px solid black;
   border: 1.2px solid #5b5757;
+=======
+  border: 1.2px solid #5b5757;
+
+>>>>>>> 3947c922b3c49946153edd97d8a8dd7844d61f29
 }
 
 .continue_container{
