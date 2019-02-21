@@ -60,13 +60,14 @@ h3{
     margin-bottom:4px;
     text-align:center;
     margin-top:0px;
+    color: #5b5757;
 }
 #content{
     margin-top:0px;
     padding-top:0px;
     height:420px;
     overflow:scroll;
-
+    color: #5b5757;
 }
 
 #letter_a{
@@ -84,7 +85,7 @@ h1{
     padding-bottom:0px;
     margin-top:0px;
     font-family: Poppins, sans-serif;
-    
+    color: #5b5757;
 }
 #footer{
     height:60px;
@@ -120,10 +121,12 @@ Person
 }
 #person h3{
     margin-top:0px;
+    color: #5b5757;
 }
 #person p{
     margin-top:1px;
     margin-bottom:0px;
+    color: #5b5757;
 }
 
 #person i, #person p{
@@ -136,6 +139,7 @@ i, p{
 
 #person i{
     width:20px;
+    color: #5b5757;
 }
 
 #content2{
@@ -239,11 +243,13 @@ p.ptop{
     margin-bottom:0px;
     padding:0px;
     margin-top:0px;
+    color: #5b5757;
 }
 #bottom h4{
     text-align:center;
     font-size:17px;
     margin-top:7px;
+    color: #5b5757;
 }
 
 .checkbox{
