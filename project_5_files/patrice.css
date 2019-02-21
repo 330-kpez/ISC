@@ -66,7 +66,11 @@ text-shadow:1px 1.5px black;
 
 .input{
     width: 250px;
+<<<<<<< HEAD
     height: 120px;
+=======
+    height: 130px;
+>>>>>>> project_6
     align-content: center;
     padding: 5px 20px 9px 40px;
 }

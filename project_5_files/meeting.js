@@ -124,3 +124,10 @@ function d4_function(){
     }
 
   }
+
+  function complete_function(){
+    document.getElementById("compid").style.visibility = "visible";
+    document.getElementById("eventsid").style.visibility = "hidden";
+    document.getElementById("scheduleid").style.visibility = "hidden";
+    document.getElementById("continuebttn").style.visibility = "hidden";
+  }
