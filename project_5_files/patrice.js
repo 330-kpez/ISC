@@ -1,8 +1,8 @@
 var submitbutt = document.getElementById("finish")
 var createbutt = document.getElementById("create")
 
-createbutt.onclick = submitForm1
-submitbutt.onclick = submitForm2
+createbutt.onclick = submitForm1()
+submitbutt.onclick = submitForm2()
 
 
 function submitForm1() {
