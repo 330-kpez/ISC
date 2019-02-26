@@ -2,42 +2,37 @@
 <head>
   <title>Create Account</title>
   <link rel="stylesheet" type="text/css" href="patrice.css" />
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Poppins" rel="stylesheet">
 </head>
 <body>
   <div id="screen">
-    <div class="head-bar">
-      <div class="back-button">
-        <a href="registration.html">
-          <i class="material-icons" id="back">navigate_before</i>
-        </a>
-      </div>
-    </div>
-    <div class="brand-name-r2">
-      <img class="reg-logo" src="images/logo.png">
+    <div class="brand-name-r">
+        <img class="app-name" src="images/name.png">
     </div>
     <div class="paragraph">
-      <p>Continue customizing your profile</p>
+      <p>Create an account to start connecting</p>
     </div>
-    <form class="input" id="mySubmitForm">
-      <input class="entry" id="PhoneNum" type=text maxlength="10" placeholder="Phone #">
-      <input class="entry" id="Hometown" type=text placeholder="Hometown">
-      <input class="entry2" id="Education" type=text placeholder="Education">
-      <p>Date of birth</p>
-      <input class="entry3" id="DOB" type=date placeholder="DOB">
-    </form>
+    <div class="input">
+      <input id="entry" type=text placeholder="Name">
+      <input id="entry" type=text maxlength="10" placeholder="Phone #">
+      <input id="entry" type=password placeholder="Password">
+      <input id="entry" type=password placeholder="Confirm password">
+    </div>
+    <div class="check">
+      <input id="check-notis" type="checkbox" value="notis">
+      <p>Allow Friendsy to send you notifications</p>
+    </div>
     <!--<div class="check">
       <input id="check-contacts" type="checkbox" value="sync">
       <p>Sync your contacts with Friendsy</p>
     </div>-->
-   <div class="continue2-button">
+   <div class="continue-button">
     <a href="home.html">
-      <button id="finish" type="submit">Let's Go</button>
+      <button id="login">Let's Go</button>
     </a>
     </div>
     <div class="option">
-      <p>No thanks. <a href="home.html">Take me to Friendsy</a></p>
+      <p>Already have an account? <a href="login.html">Log in</a></p>
     </div>
   </div>
   <script src="ipod.js"></script>
