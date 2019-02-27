@@ -132,6 +132,16 @@ font-size: 20px;
   height:15px;
   margin-bottom: 5px;
   margin-top: 5px;
+
+  border: 1.2px solid #5b5757;
+
+}
+.colorchanger2{
+  background: white;
+  width: 15px;
+  height:15px;
+  margin-bottom: 5px;
+  margin-top: 5px;
   border-radius: 50%;
   border: 1.2px solid #5b5757;
 
