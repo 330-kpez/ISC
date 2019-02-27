@@ -112,6 +112,7 @@ h1{
 #footer{
     height:60px;
     border-top:1px solid #5b5757;
+    margin-left: 2px;
 }
 
 
@@ -130,6 +131,28 @@ h1{
 #footer a{
     height:100px;
 }
+
+#firsta{
+  background-image:linear-gradient(rgba(119, 219, 244, 0.568),rgba(255, 255, 255, 0.753));  color: #5b5757;
+}
+
+#firsta:hover {
+  background-image:linear-gradient(rgba(119, 219, 244, 0.568),rgba(255, 255, 255, 0.753));
+  color: #5b5757;
+  height: 54px;
+}
+
+#seconda:hover {
+  background-image:linear-gradient(rgba(119, 219, 244, 0.568),rgba(255, 255, 255, 0.753));  color: #5b5757;
+  height: 54px;
+}
+
+#lasta:hover {
+  background-image:linear-gradient(rgba(119, 219, 244, 0.568),rgba(255, 255, 255, 0.753));
+  color: #5b5757;
+  height: 54px;
+}
+
 .letter{
     background-image: linear-gradient(rgba(119, 219, 244, 0.568),rgba(255, 255, 255, 0.753));
     margin-bottom:0px;
