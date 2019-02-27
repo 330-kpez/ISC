@@ -9,75 +9,66 @@
 
 <body>
   <div id="screen">
-
-    <div id="header">
-      <img class="login-logo" src="images/name.png">
-
+    <div class="header">
+      <img class= "head-bar" src="images/name.png">
     </div>
     <div id="content2">
 
       <div id="person">
+        <span id="person2">
         <a href="contacts.html" ><i class="material-icons" id="backbutton" >arrow_back_ios</i></a>
-
-
         <img src="images/elliee.png">
-
-        <h3>Ellie Klein</h3>
+        <h3 id="personh3">Ellie Klein</h3>
 
         <div class="icon_text">
-          <i class="material-icons"> email</i>
-          <p>eklein@mail.com</p>
+          <i class="material-icons personicon"> email</i>
+          <p class="personp">eklein@mail.com</p>
         </div>
         <div class="icon_text">
-          <i class="material-icons"> cake</i>
-          <p>March 13, 1999</p>
+          <i class="material-icons personicon"> cake</i>
+          <p class="personp">March 13, 1999</p>
         </div>
 
         <div id="call_buttons">
-          <button>
-            <a href="meeting.html">Schedule</a>
+          <button id="schedule_button">
+            <a href="meeting.html">New Event</a>
           </button>
         </div>
+       </span>
+       <span id="bottom">
+       <h4>Upcoming</h4>
+       <h5>Today</h5>
 
+       <div class="meetings">
+       <button id="colorchanger1"></button>
+       <p id="textchanger1">Plan Trip to Berlin </p>
+       </div>
+
+       <div class="meetings">
+       <button id="colorchanger2"></button>
+       <p id="textchanger2">Review Session</p>
+       </div>
+
+       <div class="meetings">
+       <h5>Wednesday</h5>
+       <button id="colorchanger3"></button>
+       <p id="textchanger3">Dinner Reservation </p>
+        </div>
+       <div class="meetings">
+       <h5>Next Week</h5>
+       <button id="colorchanger4"></button>
+       <p id="textchanger4">Book Club </p>
+        </div>
+       <div class="meetings">
+       <button id="colorchanger5"></button>
+       <p id="textchanger5"> Study for Quiz</p>
+        </div>
+       <div class="meetings">
+       <button id="colorchanger6"></button>
+       <p id="textchanger6">Phone call </p>
+       </div>
       </div>
-
-      <div id="bottom">
-        <h4>Upcoming</h4>
-        <h5>Today</h5>
-
-        <button id="colorchanger1"></button>
-        <p>Plan Trip to Berlin </p>
-
-        <br>
-        <button id="colorchanger2"></button>
-        <p>Review Session</p>
-
-        <br>
-        <h5>Wednesday</h5>
-        <button id="colorchanger3"></button>
-        <p>Dinner Reservation </p>
-
-        <br>
-        <h5>Next Week</h5>
-        <button id="colorchanger4"></button>
-        <p>Book Club </p>
-
-        <br>
-        <button id="colorchanger5"></button>
-        <p> Study for Quiz</p>
-
-        <br>
-        <button id="colorchanger6"></button>
-        <p>Phone call </p>
-
-        <br>
-
-
-      </div>
-
-
-    </div>
-
+    </span>
 
     <div id="footer">
       <a href="contacts.html">
@@ -86,7 +77,7 @@
       <a href="home.html">
         <i class="material-icons" id="second">home</i>
       </a>
-      <i class="material-icons" id="last">account_circle</i>
+      <a href="profile.html"><i class="material-icons" id="last">account_circle</i> </a>
     </div>
 
   </div>
