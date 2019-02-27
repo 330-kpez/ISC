@@ -138,20 +138,25 @@ h1{
 Person
 */
 
-#person{
+#person2{
     text-align:center;
+    height: 415px;
 }
-#person h3{
+#person{
+    overflow:scroll;
+    height:415px;
+}
+#personh3{
     margin-top:0px;
     color: #5b5757;
 }
-#person p{
+.personp{
     margin-top:1px;
     margin-bottom:0px;
     color: #5b5757;
 }
 
-#person i, #person p{
+.personicon, .personp{
     display:inline-block;
     color: #5b5757;
 }
@@ -160,7 +165,7 @@ i, p{
     vertical-align:top;
 }
 
-#person i{
+.personicon {
     width:20px;
     color: #5b5757;
 }
@@ -178,7 +183,7 @@ i, p{
 #call_buttons{
     margin-top:3px;
 }
-#person button{
+#schedule_button{
     margin-left:5px;
     margin-right:5px;
     border-radius:5px;
@@ -187,9 +192,19 @@ i, p{
     background-color:#77dbf4;
     outline:none;
     border:none;
-    height:25px;
+    height:30px;
+    width:95px;
     color: #5b5757;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    font-size:15px;
 }
+
+#schedule_button:hover {
+    background-color: white; /* Green */
+    border: 2px solid #77dbf4;
+    color: #5b5757;
+  }
 
 #call_buttons a{
     color: #5b5757;
@@ -259,8 +274,7 @@ p.ptop{
 #bottom{
     margin-top:4px;
     border-top:1px solid grey;
-    height:210px;
-    overflow:scroll;
+    height:205px;
 }
 
 #bottom p, #bottom .checkbox, #bottom h4{
@@ -271,9 +285,11 @@ p.ptop{
 }
 #bottom h4{
     text-align:center;
-    font-size:17px;
-    margin-top:7px;
+    font-size:15px;
+    margin-top:8px;
     color: #5b5757;
+    border-top:1px solid #5b5757;
+    padding-top:5px;
 }
 
 .checkbox{
@@ -296,11 +312,14 @@ p.ptop{
 #bottom p{
     color: #5b5757;
     margin-left:8px;
+    border-top:none;
 }
 .mark{
     background:#77dbf4;
 }
-
+.meetings{
+    margin-top:3px;
+}
 
 .checkbox,p{
     display:inline-block;
@@ -326,46 +345,40 @@ p.ptop{
     background: white;
     width: 15px;
     height:15px;
-    border-radius:50%;
     border: 1.2px solid #5b5757;
 }
 #colorchanger2{
     background: white;
     width: 15px;
     height:15px;
-    border-radius:50%;
     border: 1.2px solid #5b5757;
 }
 #colorchanger3{
     background: white;
     width: 15px;
     height:15px;
-    border-radius:50%;
     border: 1.2px solid #5b5757;
 }
 #colorchanger4{
     background: white;
     width: 15px;
     height:15px;
-    border-radius:50%;
     border: 1.2px solid #5b5757;
 }
 #colorchanger5{
     background: white;
     width: 15px;
     height:15px;
-    border-radius:50%;
     border: 1.2px solid #5b5757;
 }
 #colorchanger6{
     background: white;
     width: 15px;
     height:15px;
-    border-radius:50%;
     border: 1.2px solid #5b5757;
 }
 #backbutton{
-    margin-left:-10px;
+    margin-left:20px;
     padding-right:40px;
     padding-top:5px;
     margin-right:35px;
