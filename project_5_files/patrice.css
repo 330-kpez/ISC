@@ -88,6 +88,12 @@ text-shadow:1px 1.5px black;
     height: 8px;
 }
 
+#message{
+    font-family: Poppins, sans-serif;
+    font-size: 10px;
+    display: inline-block;
+}
+
 .entry{
     display: inline-block;
     border: 0.25px solid #5b5757;

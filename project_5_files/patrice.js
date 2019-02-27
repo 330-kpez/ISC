@@ -2,8 +2,16 @@ var submitbutt = document.getElementById("finish")
 var createbutt = document.getElementById("create")
 
 
-
-
+var check = function () {
+  if (document.getElementById('Password').value ==
+    document.getElementById('Confirm_Password').value) {
+    document.getElementById('message').style.color = 'green';
+    document.getElementById('message').innerHTML = 'matching';
+  } else {
+    document.getElementById('message').style.color = 'red';
+    document.getElementById('message').innerHTML = 'passwords must match';
+  }
+}
 
 function submitForm1() {
   document.getElementById("mySubmitForm").submit();

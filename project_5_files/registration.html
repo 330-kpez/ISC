@@ -13,10 +13,11 @@
       <p>Create an account to start connecting</p>
     </div>
     <form class="input" id="mySubmitForm">
-      <input class="entry" id="UserName" type=text placeholder="Name">
-      <input class="entry" id="EmailAddr" type=text placeholder="Email address">
-      <input class="entry" id="Password" type=password placeholder="Password">
-      <input class="entry" type=password placeholder="Confirm password">
+      <input class="entry" id="UserName" type=text placeholder="Name" required>
+      <input class="entry" id="EmailAddr" type=text placeholder="Email address" required>
+      <input class="entry" id="Password" type=password placeholder="Password" required>
+      <input class="entry" id="Confirm_Password" type=password placeholder="Confirm password" onkeyup="check()">
+      <span id="message"></span>
     </form>
     <div class="check">
       <input id="check-notis" type="checkbox" value="notis">
