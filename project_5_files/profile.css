@@ -29,7 +29,7 @@ height: 45px;
   height: 120px;
   width: 120px;
   padding-top: 35px;
-  padding-left: 95px;
+  padding-left: 90px;
   radius: 50%;
   align-items: center;
   color: black;
@@ -84,14 +84,14 @@ color: #5b5757;
 .button{
     padding: 30px 0px 0px 95px;
     align-items: center;
-    padding-left: 8px;
+    padding-left: 0px;
 
 }
 
 button{
   background-color: #77dbf4;
   color: #5b5757;
-  padding: 5px 8px;
+  padding: 2px 8px;
   /*text-align: center;*/
   text-decoration: none;
   font-size: 10px;
@@ -99,6 +99,7 @@ button{
   border: 2px solid #77dbf4;
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
+  font-family: Poppins, sans-serif;
 }
 
 button:hover {
