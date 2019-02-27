@@ -1,10 +1,5 @@
-<<<<<<< HEAD
-/* 
-Global classes 
-=======
 /*
 Global classes
->>>>>>> kieranBranch
 */
 *{
     font-family:Poppins, sans-serif;
@@ -15,12 +10,6 @@ background-repeat: no-repeat;
 font-family: Avenir, sans-serif;
 }
 
-<<<<<<< HEAD
-#header{
-    color: #77dbf4;;
-    text-align:center;
-    width:298px;;
-=======
 .header {
   border-bottom: 1px solid #a09c9c;
 }
@@ -42,7 +31,6 @@ height: 45px;
     color: #77dbf4;;
     text-align:center;
     width:272px;;
->>>>>>> kieranBranch
     margin-left:1px;
     padding-top:10px;
     padding-left:27px;
@@ -50,22 +38,15 @@ height: 45px;
     border-bottom:1px solid #a09c9c
 }
 
-<<<<<<< HEAD
-=======
 #header img{
     width:240px;
     margin-right:32px;
 }
 
->>>>>>> kieranBranch
 .login-logo{
     height:100%;
     width:100%;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> kieranBranch
 #screen {
 height: 530px;
 width: 300px;
@@ -86,45 +67,29 @@ margin: 105px 23px;
     padding-left:2px;
     box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     font-size:14px;/*text-decoration:underline;*/
-<<<<<<< HEAD
-}
-#content .letter p{
-    border-left:none;
-=======
     color: #5b5757;
 }
 #content .letter p{
     border-left:none;
     color: #5b5757;
->>>>>>> kieranBranch
 }
 #content .letter{
     margin-top:0px;
     padding-top:0px;
-<<<<<<< HEAD
-=======
     color: #5b5757;
->>>>>>> kieranBranch
 }
 h3{
     margin-bottom:4px;
     text-align:center;
     margin-top:0px;
-<<<<<<< HEAD
-=======
     color: #5b5757;
->>>>>>> kieranBranch
 }
 #content{
     margin-top:0px;
     padding-top:0px;
     height:420px;
     overflow:scroll;
-<<<<<<< HEAD
-
-=======
     color: #5b5757;
->>>>>>> kieranBranch
 }
 
 #letter_a{
@@ -135,22 +100,14 @@ h3{
 }
 a{
     text-decoration: none;
-<<<<<<< HEAD
-    color:black;
-=======
     color: #5b5757;
->>>>>>> kieranBranch
 }
 h1{
     margin-bottom:0px;
     padding-bottom:0px;
     margin-top:0px;
     font-family: Poppins, sans-serif;
-<<<<<<< HEAD
-    
-=======
     color: #5b5757;
->>>>>>> kieranBranch
 }
 #footer{
     height:60px;
@@ -186,26 +143,17 @@ Person
 }
 #person h3{
     margin-top:0px;
-<<<<<<< HEAD
-=======
     color: #5b5757;
->>>>>>> kieranBranch
 }
 #person p{
     margin-top:1px;
     margin-bottom:0px;
-<<<<<<< HEAD
-=======
     color: #5b5757;
->>>>>>> kieranBranch
 }
 
 #person i, #person p{
     display:inline-block;
-<<<<<<< HEAD
-=======
     color: #5b5757;
->>>>>>> kieranBranch
 }
 
 i, p{
@@ -214,10 +162,7 @@ i, p{
 
 #person i{
     width:20px;
-<<<<<<< HEAD
-=======
     color: #5b5757;
->>>>>>> kieranBranch
 }
 
 #content2{
@@ -303,30 +248,18 @@ p.ptop{
     margin-left:-15px;
 }
 #person img{
-<<<<<<< HEAD
-    width:30%;
-    margin-top:10px;
-    margin-bottom:10px;
-    height:70px;
-    padding-right:80px;
-=======
     width:23%;
     margin-top:15px;
     margin-bottom:0px;
     height:70px;
     margin-right:90px;
     border-radius:50%;
->>>>>>> kieranBranch
 }
 
 #bottom{
     margin-top:4px;
     border-top:1px solid grey;
-<<<<<<< HEAD
-    height:205px;
-=======
     height:210px;
->>>>>>> kieranBranch
     overflow:scroll;
 }
 
@@ -334,19 +267,13 @@ p.ptop{
     margin-bottom:0px;
     padding:0px;
     margin-top:0px;
-<<<<<<< HEAD
-=======
     color: #5b5757;
->>>>>>> kieranBranch
 }
 #bottom h4{
     text-align:center;
     font-size:17px;
     margin-top:7px;
-<<<<<<< HEAD
-=======
     color: #5b5757;
->>>>>>> kieranBranch
 }
 
 .checkbox{
@@ -363,10 +290,7 @@ p.ptop{
 #bottom h5{
     font-size:15px;
     margin-left:7px;
-<<<<<<< HEAD
-=======
     color: #5b5757;
->>>>>>> kieranBranch
 }
 
 #bottom p{
@@ -380,10 +304,7 @@ p.ptop{
 
 .checkbox,p{
     display:inline-block;
-<<<<<<< HEAD
-=======
     color: #5b5757;
->>>>>>> kieranBranch
 }
 #bottom input{
     background-color:#77dbf4;
@@ -406,74 +327,47 @@ p.ptop{
     width: 15px;
     height:15px;
     border-radius:50%;
-<<<<<<< HEAD
-    border: 1.2px dotted #5b5757;
-=======
     border: 1.2px solid #5b5757;
->>>>>>> kieranBranch
 }
 #colorchanger2{
     background: white;
     width: 15px;
     height:15px;
     border-radius:50%;
-<<<<<<< HEAD
-    border: 1.2px dotted #5b5757;
-=======
     border: 1.2px solid #5b5757;
->>>>>>> kieranBranch
 }
 #colorchanger3{
     background: white;
     width: 15px;
     height:15px;
     border-radius:50%;
-<<<<<<< HEAD
-    border: 1.2px dotted #5b5757;
-=======
     border: 1.2px solid #5b5757;
->>>>>>> kieranBranch
 }
 #colorchanger4{
     background: white;
     width: 15px;
     height:15px;
     border-radius:50%;
-<<<<<<< HEAD
-    border: 1.2px dotted #5b5757;
-=======
     border: 1.2px solid #5b5757;
->>>>>>> kieranBranch
 }
 #colorchanger5{
     background: white;
     width: 15px;
     height:15px;
     border-radius:50%;
-<<<<<<< HEAD
-    border: 1.2px dotted #5b5757;
-=======
     border: 1.2px solid #5b5757;
->>>>>>> kieranBranch
 }
 #colorchanger6{
     background: white;
     width: 15px;
     height:15px;
     border-radius:50%;
-<<<<<<< HEAD
-    border: 1.2px dotted #5b5757;
-=======
     border: 1.2px solid #5b5757;
->>>>>>> kieranBranch
 }
 #backbutton{
     margin-left:-10px;
     padding-right:40px;
     padding-top:5px;
     margin-right:35px;
-<<<<<<< HEAD
-=======
     font-size: 15px;
->>>>>>> kieranBranch
 }
