@@ -1,7 +1,10 @@
 /*
 	Global classes
 					*/
+<<<<<<< HEAD
 
+=======
+>>>>>>> kieranBranch
 body {
 background-image: url("images/iphoneOL.jpg");
 background-repeat: no-repeat;
@@ -17,8 +20,11 @@ margin: 105px 23px;
 
 .header {
   border-bottom: 1px solid #a09c9c;
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> kieranBranch
 }
 
 .head-bar {
@@ -32,6 +38,7 @@ height: 45px;
 }
 
 
+<<<<<<< HEAD
 #colorchanger{
   background: white;
   width: 15px;
@@ -137,3 +144,193 @@ height:150px;
 .album-info{
 height:162px;
 }
+=======
+
+.material-icons{
+padding-left: 138px;
+padding-top: 10px;
+font-size: 100px;
+width: 75px;
+display: flex;
+color: #77dbf4;
+margin-bottom: -90px;
+margin-left: -70px;
+margin-right: -50px;
+}
+
+.colorchanger{
+  background: white;
+  width: 15px;
+  height:15px;
+  /*border-radius: 50%;*/
+  margin-bottom: 5px;
+  margin-top: 5px;
+  border: 1.2px solid #5b5757;
+}
+
+
+.schedule {
+margin-top:0px;
+margin-bottom:0px;
+font-weight: 200;
+font-size:15px;
+color:  #5b5757;
+background-image:linear-gradient(rgba(119, 219, 244, 0.568),rgba(255, 255, 255, 0.753));
+width: 299px;
+height: 15px;
+text-align: center;
+}
+
+.events {
+margin-top:-5px;
+padding-top:-10px;
+padding-left: 20px;
+font-size:12px;
+font-weight:620;
+margin-left: 0px;
+color: #5b5757;
+/*text-decoration: none;*/
+}
+
+#e1 {
+  margin-top:-5px;
+  padding-top:-10px;
+  font-size:12px;
+  font-weight:620;
+  margin-left: 0px;
+  color: #5b5757;
+  text-decoration: none;
+}
+
+#e2 {
+  margin-top:-5px;
+  padding-top:-10px;
+  font-size:12px;
+  font-weight:620;
+  margin-left: 0px;
+  color: #5b5757;
+  text-decoration: none;
+}
+
+#e3{
+  margin-top:-5px;
+  padding-top:-10px;
+  font-size:12px;
+  font-weight:620;
+  margin-left: 0px;
+  color: #5b5757;
+  text-decoration: none;
+}
+
+#e4 {
+  margin-top:-5px;
+  padding-top:-10px;
+  font-size:12px;
+  font-weight:620;
+  margin-left: 0px;
+  color: #5b5757;
+  text-decoration: none;
+}
+
+#e5 {
+  margin-top:-5px;
+  padding-top:-10px;
+  font-size:12px;
+  font-weight:620;
+  margin-left: 0px;
+  color: #5b5757;
+  text-decoration: none;
+}
+
+.things {
+margin-top:-5px;
+padding-top:-10px;
+padding-left: 20px;
+font-size:12px;
+font-weight:620;
+margin-left: 0px;
+color: #5b5757;
+text-decoration: none;
+}
+
+.dates {
+  margin-top:-5px;
+  padding-top:-10px;
+  padding-left: 20px;
+  font-size:12px;
+  font-weight:620;
+  margin-left: 0px;
+  color: #5b5757;
+}
+
+.time {
+  margin-top:-15px;
+  padding-top:-20px;
+  padding-left: 20px;
+  font-size:8px;
+  font-weight:620;
+  margin-left: 0px;
+  color: #5b5757;
+
+}
+
+.player-arrow {
+  padding-top: -10px;
+}
+
+.footer-wrapper {
+  display: flex;
+  width: 298px;
+  height: 50px;
+  padding-top:25px;
+  padding-left: -400px;
+  text-align:center;
+
+}
+.footer-wrapper i{
+  height:100%;
+  width:100%;
+  padding:0px;
+  margin:0px;
+  font-size:40px;
+  padding-top:10px;
+}
+.footer-wrapper a{
+  height:93px;
+  padding:0px;
+  margin:0px;
+}
+
+#firsta{
+  width:110px;
+  margin-left:0px;
+  border-top: 1px solid #5b5757;
+}
+#seconda{
+  width:96px;
+  border-top: 1px solid #5b5757;
+  margin-right:0px;
+}
+
+#lasta{
+  width:96px;
+  border-top: 1px solid #5b5757;
+  margin-right:0px;
+}
+.wrap {
+  height: 45px;
+  width: 45px;
+
+}
+
+
+/*.material-icons{
+  width: 75px;
+  font-size: 100px;
+  display: flex;
+  color: #77dbf4;
+  margin-bottom: -90px;
+  margin-left: -70px;
+  margin-right: -50px;
+}*/
+>>>>>>> kieranBranch

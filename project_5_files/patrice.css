@@ -1,0 +1,192 @@
+/*
+	Global classes
+					*/
+
+body {
+background-image: url("images/iphoneOL.jpg");
+background-repeat: no-repeat;
+font-family: Poppins, sans-serif;
+}
+
+
+#screen {
+height: 530px;
+width: 300px;
+margin: 105px 23px;
+}
+
+.head-bar {
+text-align: left;
+padding-left: 10px;
+padding-top: 10px;
+text-shadow:1px 1.5px black;
+}
+
+.back-button i{
+    color: #5b5757;
+    text-shadow: none;
+}
+
+.brand-name-r {
+    height: 70px;
+    width: 300px;
+    text-align: center;
+    padding-top: 125px;
+}
+
+.brand-name-l {
+    height: 95px;
+    width: 300px;
+    text-align: center;
+    padding-top: 65px;
+}
+
+.brand-name-r2{
+    height: 50px;
+    text-align: center;
+    padding-top: 30px;
+}
+.login-logo{
+    height: 80px;
+}
+
+.reg-logo{
+    height: 50px;
+}
+
+.app-name{
+    height: 50px;
+}
+
+.paragraph{
+    float: left;
+    text-align: left;
+    font-size: 11px;
+    padding-left: 40px;
+    color: #5b5757;
+}
+
+.option{
+    font-size: 8px;
+    padding: 5px 40px 20px 40px;
+    text-align: center;
+    color: #5b5757;
+}
+
+.input{
+    width: 250px;
+    height: 130px;
+    align-content: center;
+    padding: 5px 20px 9px 40px;
+}
+
+.input p{
+    color: #5b5757;
+    font-family: Poppins, sans-serif;
+    font-size: 10px;
+    padding-top: 5px;
+    height: 8px;
+}
+
+.entry{
+    display: inline-block;
+    border: 0.25px solid #5b5757;
+    border-style: none none solid none;
+    height: 25px;
+    width: 210px;
+    color: #5b5757;
+    font-family: Poppins, sans-serif;
+    font-size: 10px;
+    padding-top: 4px;
+    margin-bottom: 4px;
+}
+
+.entry2{
+    display: inline-block;
+    border: 0.25px solid #5b5757;
+    border-style: none none solid none;
+    height: 25px;
+    width: 210px;
+    color: #5b5757;
+    font-family: Poppins, sans-serif;
+    font-size: 10px;
+    padding-top: 4px;
+    margin-bottom: 0px;
+}
+
+.entry3{
+    display: inline-block;
+    border: 0.25px solid #5b5757;
+    border-style: none none solid none;
+    height: 25px;
+    width: 210px;
+    color: #777777;
+    font-family: Poppins, sans-serif;
+    font-size: 10px;
+    padding-top: 4px;
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+
+#check-notis{
+    margin-top: 8px;
+    float: left;
+
+}
+#check-contacts{
+    margin-top: 5px;
+}
+
+#checkbox1{
+    float: left;
+    margin-top: 9px;
+}
+
+.check{
+    display: inline-block;
+    height: 10px;
+    width: 200px;
+    font-family: Poppins, sans-serif;
+    font-size: 9px;
+    padding: 15px 40px 0px 38px;
+}
+
+.check p{
+    color: #5b5757;
+}
+
+.continue-button{
+    padding: 30px 0px 0px 95px;
+}
+
+.continue2-button{
+    padding: 50px 0px 0px 118px;
+}
+
+.login-next{
+    padding: 0px 0px 0px 118px;
+}
+
+button{
+  background-color: #77dbf4;
+  color: #5b5757;
+  padding: 6px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  border-radius: 4px;
+  margin-right: 10px;
+  border: 2px solid #77dbf4;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+
+button:hover {
+  background-color: white; /* Green */
+  border: 2px solid #77dbf4;
+  color: #5b5757;
+}
+
+#create button{
+      padding: 6px 10px;
+}
