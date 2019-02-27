@@ -1,0 +1,120 @@
+body {
+background-image: url("images/iphoneOL.jpg");
+background-repeat: no-repeat;
+font-family: Poppins, sans-serif;
+/*background-image: url("logo.jpeg");*/
+}
+
+#screen {
+height: 530px;
+width: 300px;
+margin: 105px 23px;
+}
+
+.header {
+  border-bottom: 1px solid #a09c9c;
+}
+
+.head-bar {
+color: #77dbf4;
+text-align: center;
+width: 240px;
+margin-left: 1px;
+padding-left: 27px;
+padding-top: 10px;
+height: 45px;
+}
+
+.icon {
+  height: 120px;
+  width: 100px;
+  padding-top: 35px;
+  padding-left: 100px;
+}
+
+.material-icons{
+padding-left: 138px;
+padding-top: 10px;
+font-size: 100px;
+width: 75px;
+display: flex;
+color: #77dbf4;
+margin-bottom: -90px;
+margin-left: -70px;
+margin-right: -50px;
+}
+
+.person {
+margin-top:0px;
+margin-bottom:0px;
+font-weight: 200;
+font-size:22px;
+color: #5b5757;
+background-image:linear-gradient(rgba(119, 219, 244, 0.568),rgba(255, 255, 255, 0.753));
+width: 299px;
+height: 15px;
+text-align: center;
+}
+
+.information {
+text-align: center;
+padding-top: 10px;
+color: #5b5757;
+}
+
+.face {
+  color: #77dbf4;
+  text-align: center;
+  width: 240px;
+  margin-left: 1px;
+  padding-left: 27px;
+  padding-top: 10px;
+  height: 45px;
+}
+
+
+.footer-wrapper {
+  display: flex;
+  width: 298px;
+  height: 50px;
+  padding-top:78px;
+  padding-left: -400px;
+  text-align:center;
+
+}
+
+.footer-wrapper i{
+  height:100%;
+  width:100%;
+  padding:0px;
+  margin:0px;
+  font-size:40px;
+  padding-top:10px;
+}
+.footer-wrapper a{
+  height:93px;
+  padding:0px;
+  margin:0px;
+}
+
+#firsta{
+  width:110px;
+  margin-left:0px;
+  border-top: 1px solid #5b5757;
+}
+#seconda{
+  width:96px;
+  border-top: 1px solid #5b5757;
+  margin-right:0px;
+}
+
+#lasta{
+  width:96px;
+  border-top: 1px solid #5b5757;
+  margin-right:0px;
+}
+.wrap {
+  height: 45px;
+  width: 45px;
+
+}
