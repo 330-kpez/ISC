@@ -7,7 +7,7 @@ Before running, please follow the instructions below:
 In terminal cd into the directory and run:
   python3 -m http.server 1234
 
-IF YOU DO NOT RUN THE SERVER, THE PROFILE DATA WON'T WORK/SAVE.
+IF YOU DO NOT RUN THE SERVER, THE PROFILE DATA WON'T SAVE WHEN YOU LEAVE THE PAGE.
 
 Basic instructions go here.
 
