@@ -70,7 +70,10 @@ font-size: 20px;
   border-color: #5b5757;
 }
 
-.meeting_times button:hover {background-color:#77dbf4}
+.meeting_times button:hover {
+  background-color:#77dbf4;
+  cursor:pointer;
+}
 
 .meeting_duration {
   position: relative;
@@ -133,6 +136,7 @@ font-size: 20px;
    background-color: white; /* Green */
   border: 2px solid #77dbf4;
   color: #5b5757;
+  cursor:pointer;
 }
 
 .colorchanger{

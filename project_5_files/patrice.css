@@ -94,6 +94,12 @@ text-shadow:1px 1.5px black;
     display: inline-block;
 }
 
+#message2{
+    font-family: Poppins, sans-serif;
+    font-size: 10px;
+    display: inline-block;
+}
+
 .entry{
     display: inline-block;
     border: 0.25px solid #5b5757;
@@ -191,6 +197,7 @@ button:hover {
   background-color: white; /* Green */
   border: 2px solid #77dbf4;
   color: #5b5757;
+  cursor:pointer;
 }
 
 #create button{
