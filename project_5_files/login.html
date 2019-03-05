@@ -22,8 +22,10 @@
       <p>Login to Friendsy</p>
     </div>
     <div class="input">
-      <input class="entry" onclick="myFunction()" type=text placeholder="Phone # or email address">
+      <input class="entry" id="login_email" onclick="myFunction()" type=text placeholder="Email address" onkeyup="check_mail_login()">
       <input class="entry" type=password placeholder="Password">
+      <span id="message2"></span>
+
     </div>
     <div class="login-next">
       <a href="home.html">

@@ -106,6 +106,7 @@ button:hover {
   background-color: white; /* Green */
   border: 2px solid #77dbf4;
   color: #5b5757;
+  cursor:pointer;
 }
 
 .footer-wrapper {

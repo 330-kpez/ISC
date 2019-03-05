@@ -14,7 +14,7 @@
     </div>
     <form class="input" id="mySubmitForm">
       <input class="entry" id="UserName" type=text placeholder="Name" required>
-      <input class="entry" id="EmailAddr" type=email placeholder="Email address" required>
+      <input class="entry" id="EmailAddr" type=email placeholder="Email address" onkeyup="check_mail()">
       <input class="entry" id="Password" type=password placeholder="Password" required>
       <input class="entry" id="Confirm_Password" type=password placeholder="Confirm password" onkeyup="check()">
       <span id="message"></span>
