@@ -127,13 +127,13 @@ function d4_function(){
 
   function dd1_function(){
 
-    if(sw1 == 0){
-      document.getElementById("dd1").style.background = "white";
-      sw1 = 1;
-    }
-    else{
+    if(sw1 != 0 && sw2 != 0 && sw3 != 0){
       document.getElementById("dd1").style.background = "#77dbf4";
       sw1 = 0;
+    }
+    else{
+      document.getElementById("dd1").style.background = "white";
+      sw1 = 1;
 
     }
 
@@ -141,13 +141,13 @@ function d4_function(){
 
   function dd2_function(){
 
-    if(sw2 == 0){
-      document.getElementById("dd2").style.background = "white";
-      sw2 = 1;
-    }
-    else{
+    if(sw1 != 0 && sw2 != 0 && sw3 != 0){
       document.getElementById("dd2").style.background = "#77dbf4";
       sw2 = 0;
+    }
+    else{
+      document.getElementById("dd2").style.background = "white";
+      sw2 = 1;
 
     }
 
@@ -155,13 +155,13 @@ function d4_function(){
 
   function dd3_function(){
 
-    if(sw3 == 0){
-      document.getElementById("dd3").style.background = "white";
-      sw3 = 1;
-    }
-    else{
+    if(sw1 != 0 && sw2 != 0 && sw3 != 0){
       document.getElementById("dd3").style.background = "#77dbf4";
       sw3 = 0;
+    }
+    else{
+      document.getElementById("dd3").style.background = "white";
+      sw3 = 1;
 
     }
 
