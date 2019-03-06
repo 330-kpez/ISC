@@ -169,6 +169,7 @@ text-decoration: none;
   padding-top:25px;
   padding-left: -400px;
   text-align:center;
+  margin-top:15px;
 
 }
 .footer-wrapper i{
@@ -208,13 +209,16 @@ text-decoration: none;
   width:110px;
   margin-left:0px;
   border-top: 1px solid #5b5757;
+  height:23px;
+  text-align:center;
 }
 
 #seconda {
   width:96px;
   border-top: 1px solid #5b5757;
   margin-right:0px;
-  height: 56px;
+  height:23px;
+  text-align:center;
   background-image:linear-gradient(rgba(119, 219, 244, 0.568),rgba(255, 255, 255, 0.753));
 }
 
@@ -222,6 +226,8 @@ text-decoration: none;
   width:96px;
   border-top: 1px solid #5b5757;
   margin-right:0px;
+  height:23px;
+  text-align:center;
 }
 .wrap {
   height: 45px;
