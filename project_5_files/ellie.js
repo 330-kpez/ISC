@@ -5,8 +5,8 @@ var sw4 = 1;
 var sw5 = 1;
 var sw6 = 1;
 var sw7 = 1;
-var levels = ["b0", "b1", "b2", "b3", "b4", "b5", "b6", "b7", "b8", "b9",
-"b10", "b11", "b12", "b13", "b14"];
+var levels = ["vl0", "vl1", "vl2", "vl3", "vl4", "vl5", "vl6", "vl7", "vl8", "vl9",
+"vl10", "vl11", "vl12", "vl13", "vl14"];
 var tasks=0;
 
 
@@ -17,6 +17,12 @@ function d1_function(){
     sw1 = 1;
     document.getElementById("e1").style.textDecorationLine = "none";
     document.getElementById("vl0").style.background= "white";
+
+    if(tasks!=0)
+    {
+      var element = levels[tasks-1];
+      document.getElementById("element").style.background="white";
+    }
   }
 
 
@@ -25,6 +31,7 @@ function d1_function(){
     sw1 = 0;
     document.getElementById("e1").style.textDecorationLine = "line-through";
     document.getElementById("vl0").style.background= "#77dbf4";
+    tasks++;
   }
 
 }
@@ -36,6 +43,7 @@ function d2_function(){
     sw2 = 1;
     document.getElementById("e2").style.textDecorationLine = "none";
     document.getElementById("vl1").style.background= "white";
+    tasks--;
 
   }
   else{
@@ -43,6 +51,7 @@ function d2_function(){
     sw2 = 0;
     document.getElementById("e2").style.textDecorationLine = "line-through";
     document.getElementById("vl1").style.background= "#77dbf4";
+    tasks++;
 
   }
 
@@ -55,6 +64,7 @@ function d3_function(){
     sw3 = 1;
     document.getElementById("e3").style.textDecorationLine = "none";
     document.getElementById("vl2").style.background= "white";
+    tasks--;
 
   }
   else{
@@ -62,6 +72,7 @@ function d3_function(){
     sw3 = 0;
     document.getElementById("e3").style.textDecorationLine = "line-through";
     document.getElementById("vl2").style.background= "#77dbf4";
+    tasks++;
 
   }
 
@@ -74,6 +85,7 @@ function d4_function(){
     sw4 = 1;
     document.getElementById("e4").style.textDecorationLine = "none";
     document.getElementById("vl3").style.background= "white";
+    tasks--;
 
   }
   else{
@@ -81,6 +93,7 @@ function d4_function(){
     sw4 = 0;
     document.getElementById("e4").style.textDecorationLine = "line-through";
     document.getElementById("vl3").style.background= "#77dbf4";
+    tasks++;
 
   }
 }
@@ -91,6 +104,11 @@ function d4_function(){
       sw5 = 1;
       document.getElementById("e5").style.textDecorationLine = "none";
       document.getElementById("vl4").style.background= "white";
+      document.getElementById("vl0").style.background= "#77dbf4";
+      document.getElementById("vl1").style.background= "#77dbf4";
+      document.getElementById("vl2").style.background= "#77dbf4";
+      document.getElementById("vl3").style.background= "#77dbf4";
+      tasks--;
 
 
     }
@@ -103,9 +121,7 @@ function d4_function(){
       document.getElementById("vl2").style.background= "grey";
       document.getElementById("vl3").style.background= "grey";
       document.getElementById("vl4").style.background= "grey";
-
-
-
+      tasks++;
 
     }
 
