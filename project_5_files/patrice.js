@@ -45,8 +45,7 @@ function submitForm1() {
   var email = document.getElementById("EmailAddr").value;
   var password = document.getElementById("Password").value;
   localStorage.clear();
-  localStorage.setItem('users', userName);
-  localStorage.setItem('email', email);
+  localStorage.setItem('user', email);
 }
 
 function submitForm2(){
@@ -62,11 +61,19 @@ function submitForm2(){
 }
 
 
-function dataFunction(){
-  document.getElementById("usernameID").innerHTML = localStorage.getItem('users');
-  document.getElementById("phonenumberID").innerHTML = localStorage.getItem('phone');
- document.getElementById("emailID").innerHTML = localStorage.getItem('email');
-document.getElementById("hometownID").innerHTML = localStorage.getItem('hometown');
- document.getElementById("educationID").innerHTML = localStorage.getItem('edu');
-document.getElementById("birthdayID").innerHTML = localStorage.getItem('dob');
-};
+function loginfunction(){
+  localStorage.clear();
+  document.getElementById("mySubmitForm").submit();
+  localStorage.setItem('user', document.getElementById("login_email").value);
+}
+
+function loadfunction(){
+  if(localStorage.getItem('user') == "jwick@gmail.com"){
+    document.getElementById("usernameID").innerHTML = "John Wick"
+    document.getElementById("emailID").innerHTML = "jwick@gmail.com"
+    document.getElementById("phonenumberID").innerHTML = "917-755-0949"
+    document.getElementById("birthdayID").innerHTML = "10/10/1997"
+    document.getElementById("homeID").innerHTML = "Pilsburg"
+
+  }
+}
