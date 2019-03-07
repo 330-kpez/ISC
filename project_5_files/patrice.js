@@ -45,6 +45,7 @@ function submitForm1() {
   var email = document.getElementById("EmailAddr").value;
   var password = document.getElementById("Password").value;
   localStorage.clear();
+  localStorage.setItem('user', email);
 }
 
 function submitForm2(){
@@ -63,7 +64,7 @@ function submitForm2(){
 function loginfunction(){
   localStorage.clear();
   document.getElementById("mySubmitForm").submit();
-  localStorage.setItem('user', document.getElementById("login_email").value)
+  localStorage.setItem('user', document.getElementById("login_email").value);
 }
 
 function loadfunction(){
