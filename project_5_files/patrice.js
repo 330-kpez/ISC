@@ -1,6 +1,21 @@
 var submitbutt = document.getElementById("finish")
 var createbutt = document.getElementById("create")
+var input = document.getElementById("Confirm_Password")
 
+var enter1 = function(){
+    if (event.key == 'Enter') {
+      createbutt.click();
+      event.preventDefault;
+    }
+}
+
+var enter2 = function () {
+  if (event.key == 'Enter') {
+    submitbutt.click();
+    event.preventDefault;
+  }
+}
+      
 
 var check = function () {
   if (document.getElementById('Password').value ==
