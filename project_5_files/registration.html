@@ -15,8 +15,8 @@
     <form class="input" id="mySubmitForm">
       <input class="entry" id="UserName" type=text placeholder="Name" required>
       <input class="entry" id="EmailAddr" type=email placeholder="Email address" onkeyup="check_mail()">
-      <input class="entry" id="Password" type=password placeholder="Password" required>
-      <input class="entry" id="Confirm_Password" type=password placeholder="Confirm password" onkeyup="check()">
+      <input class="entry" id="Password" type=password placeholder="Password" onkeyup="check()">
+      <input class="entry" id="Confirm_Password" type=password placeholder="Confirm password" onkeyup="check()" onkeydown="enter1()">
       <span id="message"></span>
     </form>
     <div class="check">
@@ -28,7 +28,7 @@
       <p>Sync your contacts with Friendsy</p>
     </div>-->
    <div class="continue-button">
-    <a href="registration2.html">
+    <a id="my_a_tag" href="registration2.html">
       <button id="create" onclick="submitForm1()">Create Account</button>
     </a>
     </div>
