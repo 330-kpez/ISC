@@ -165,72 +165,73 @@ text-decoration: none;
 .footer-wrapper {
   display: flex;
   width: 298px;
-  height: 51px;
+  height: 50px;
+  padding-top:25px;
   padding-left: -400px;
   text-align:center;
-	margin-top:29px;
-	margin-left:2px;
-	border-top:1px solid #5b5757;
+  margin-top:15px;
 
 }
 .footer-wrapper i{
-  height:90%;
+  height:100%;
   width:100%;
   padding:0px;
   margin:0px;
   font-size:40px;
-	padding-top:10px;
-	padding-bottom:3px;
+  padding-top:10px;
 }
 
 .footer-wrapper a{
   height:93px;
   padding:0px;
-	margin:0px;
-	padding-bottom:3px;
+  margin:0px;
 }
 
 #firsta:hover {
   background-image:linear-gradient(rgba(119, 219, 244, 0.568),rgba(255, 255, 255, 0.753));
   color: #5b5757;
-  height: 23px;
+  height: 54px;
 }
 
+#seconda:hover {
+  background-image:linear-gradient(rgba(119, 219, 244, 0.568),rgba(255, 255, 255, 0.753));  color: #5b5757;
+  height: 54px;
+}
 
 #lasta:hover {
   background-image:linear-gradient(rgba(119, 219, 244, 0.568),rgba(255, 255, 255, 0.753));
   color: #5b5757;
-  height: 23px;
+  height: 54px;
 }
 
 
-
 #firsta {
-  width:96px;
+  width:110px;
   margin-left:0px;
+  border-top: 1px solid #5b5757;
   height:23px;
   text-align:center;
 }
 
 #seconda {
   width:96px;
+  border-top: 1px solid #5b5757;
   margin-right:0px;
-	height:23px;
-	padding-left:4px;
+  height:23px;
   text-align:center;
   background-image:linear-gradient(rgba(119, 219, 244, 0.568),rgba(255, 255, 255, 0.753));
 }
 
 #lasta {
   width:96px;
+  border-top: 1px solid #5b5757;
   margin-right:0px;
-	height:23px;
-	padding-left:4px;
+  height:23px;
   text-align:center;
 }
 
 #vl0 {
-	border-color: black;
+	border-color: grey;
 	border-style: solid;
 	border-width: 1px;
 	height: 5px;
@@ -242,7 +243,7 @@ text-decoration: none;
 }
 
 #vl1 {
-	border-color: black;
+	border-color: grey;
 	border-style: solid;
 	border-width: 1px;
 	height: 5px;
@@ -255,7 +256,7 @@ text-decoration: none;
 }
 
 #vl2 {
-	border-color: black;
+	border-color: grey;
 	border-style: solid;
 	border-width: 1px;
 	height: 5px;
@@ -268,7 +269,7 @@ text-decoration: none;
 }
 
 #vl3 {
-	border-color: black;
+	border-color: grey;
 	border-style: solid;
 	border-width: 1px;
 	height: 5px;
@@ -281,7 +282,7 @@ text-decoration: none;
 }
 
 #vl4 {
-	border-color: black;
+	border-color: grey;
 	border-style: solid;
 	border-width: 1px;
 	height: 5px;
@@ -294,7 +295,7 @@ text-decoration: none;
 }
 
 #vl5 {
-	border-color: black;
+	border-color: grey;
 	border-style: solid;
 	border-width: 1px;
 	height: 5px;
@@ -306,7 +307,7 @@ text-decoration: none;
 }
 
 #vl6 {
-	border-color: black;
+	border-color: grey;
 	border-style: solid;
 	border-width: 1px;
 	height: 5px;
@@ -318,7 +319,7 @@ text-decoration: none;
 }
 
 #vl7 {
-	border-color: black;
+	border-color: grey;
 	border-style: solid;
 	border-width: 1px;
 	height: 5px;
@@ -330,7 +331,7 @@ text-decoration: none;
 }
 
 #vl8 {
-	border-color: black;
+	border-color: grey;
 	border-style: solid;
 	border-width: 1px;
 	height: 5px;
@@ -342,7 +343,7 @@ text-decoration: none;
 }
 
 #vl9 {
-	border-color: black;
+	border-color: grey;
 	border-style: solid;
 	border-width: 1px;
 	height: 5px;
@@ -354,7 +355,7 @@ text-decoration: none;
 }
 
 #vl10 {
-	border-color: black;
+	border-color: grey;
 	border-style: solid;
 	border-width: 1px;
 	height: 5px;
@@ -366,7 +367,7 @@ text-decoration: none;
 }
 
 #vl11 {
-	border-color: black;
+	border-color: grey;
 	border-style: solid;
 	border-width: 1px;
 	height: 5px;
@@ -378,7 +379,7 @@ text-decoration: none;
 }
 
 #vl12 {
-	border-color: black;
+	border-color: grey;
 	border-style: solid;
 	border-width: 1px;
 	height: 5px;
@@ -390,7 +391,7 @@ text-decoration: none;
 }
 
 #vl13 {
-	border-color: black;
+	border-color: grey;
 	border-style: solid;
 	border-width: 1px;
 	height: 5px;
@@ -402,7 +403,7 @@ text-decoration: none;
 }
 
 #vl14 {
-	border-color: black;
+	border-color: grey;
 	border-style: solid;
 	border-width: 1px;
 	height: 5px;
@@ -421,7 +422,14 @@ text-decoration: none;
   align-items: center;
   padding-left: 0px;
   padding: 0px 0px 0px 0px;
-  padding-top: 15px;
+  padding-top: 25px;
+}
+
+.rewards-notes {
+  color: grey;
+  font-size: 10px;
+  text-align: center;
+
 }
 
 .rewards-bar {
