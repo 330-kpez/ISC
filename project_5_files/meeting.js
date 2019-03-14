@@ -173,8 +173,18 @@ function d4_function(){
 
 
   function complete_function(){
-    document.getElementById("compid").style.visibility = "visible";
+    var op = 1;
     document.getElementById("eventsid").style.visibility = "hidden";
     document.getElementById("scheduleid").style.visibility = "hidden";
     document.getElementById("continuebttn").style.visibility = "hidden";
+    document.getElementById("compid").style.visibility = "visible";
+    document.getElementById("compid").style.opacity = op;
+    var i = setInterval(function(){
+      op = op - .07;
+      if(op < .1){
+        window.location = 'home.html'
+      };
+      document.getElementById("compid").style.opacity = op;
+
+    }, 200);
   }
