@@ -126,6 +126,7 @@ button:hover {
   padding-left: -400px;
   text-align:center;
   border-top: black;
+  margin-top:4px;
 
 }
 
@@ -143,22 +144,7 @@ button:hover {
   margin:0px;
 }
 
-#firsta:hover {
-  background-image:linear-gradient(rgba(119, 219, 244, 0.568),rgba(255, 255, 255, 0.753));
-  color: #5b5757;
-  height: 54px;
-}
 
-#seconda:hover {
-  background-image:linear-gradient(rgba(119, 219, 244, 0.568),rgba(255, 255, 255, 0.753));  color: #5b5757;
-  height: 54px;
-}
-
-#lasta:hover {
-  background-image:linear-gradient(rgba(119, 219, 244, 0.568),rgba(255, 255, 255, 0.753));
-  color: #5b5757;
-  height: 54px;
-}
 
 
 #firsta {
@@ -176,7 +162,7 @@ button:hover {
 }
 
 #lasta {
-  width:100px;
+  width:99px;
   border-top: 1px solid #5b5757;
   margin-right:0px;
   /*background-color: #5b5757;*/
@@ -189,3 +175,15 @@ button:hover {
   width: 45px;
 
 }
+
+#firsta:hover {
+  background-image:linear-gradient(rgba(119, 219, 244, 0.568),rgba(255, 255, 255, 0.753));
+  color: #5b5757;
+  height: 23px;
+}
+
+#seconda:hover {
+  background-image:linear-gradient(rgba(119, 219, 244, 0.568),rgba(255, 255, 255, 0.753));  color: #5b5757;
+  height: 23px;
+}
+
