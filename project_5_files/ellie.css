@@ -165,68 +165,64 @@ text-decoration: none;
 .footer-wrapper {
   display: flex;
   width: 298px;
-  height: 50px;
-  padding-top:25px;
+  height: 51px;
   padding-left: -400px;
   text-align:center;
-  margin-top:15px;
-
+  margin-top:29px;
+  margin-left:2px;
+  border-top:1px solid #5b5757;
 }
 .footer-wrapper i{
-  height:100%;
+  height:90%;
   width:100%;
   padding:0px;
   margin:0px;
   font-size:40px;
   padding-top:10px;
+  padding-bottom:3px;
 }
 
 .footer-wrapper a{
   height:93px;
   padding:0px;
   margin:0px;
+  padding-bottom:3px;
 }
 
 #firsta:hover {
   background-image:linear-gradient(rgba(119, 219, 244, 0.568),rgba(255, 255, 255, 0.753));
   color: #5b5757;
-  height: 54px;
-}
-
-#seconda:hover {
-  background-image:linear-gradient(rgba(119, 219, 244, 0.568),rgba(255, 255, 255, 0.753));  color: #5b5757;
-  height: 54px;
+  height: 23px;
 }
 
 #lasta:hover {
   background-image:linear-gradient(rgba(119, 219, 244, 0.568),rgba(255, 255, 255, 0.753));
   color: #5b5757;
-  height: 54px;
+  height: 23px;
 }
 
 
 #firsta {
-  width:110px;
+  width:96px;
   margin-left:0px;
-  border-top: 1px solid #5b5757;
   height:23px;
   text-align:center;
 }
 
 #seconda {
   width:96px;
-  border-top: 1px solid #5b5757;
   margin-right:0px;
   height:23px;
+  padding-left:4px;
   text-align:center;
   background-image:linear-gradient(rgba(119, 219, 244, 0.568),rgba(255, 255, 255, 0.753));
 }
 
 #lasta {
   width:96px;
-  border-top: 1px solid #5b5757;
   margin-right:0px;
   height:23px;
+  padding-left:4px;
   text-align:center;
 }
 
