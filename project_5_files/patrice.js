@@ -1,5 +1,6 @@
 var submitbutt = document.getElementById("finish")
 var createbutt = document.getElementById("create")
+var loginbutt = document.getElementById("login")
 var input = document.getElementById("Confirm_Password")
 
 var enter1 = function(){
@@ -9,9 +10,23 @@ var enter1 = function(){
     }
 }
 
+var enter11 = function () {
+  if (event.key == 'Enter') {
+    createbutt.click();
+    event.preventDefault;
+  }
+}
+
 var enter2 = function () {
   if (event.key == 'Enter') {
     submitbutt.click();
+    event.preventDefault;
+  }
+}
+
+var enter3 = function() {
+  if (event.key == 'Enter'){
+    loginbutt.click();
     event.preventDefault;
   }
 }
