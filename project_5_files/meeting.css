@@ -93,7 +93,7 @@ font-size: 20px;
 }
 .days_container{
   display: flex;
-  margin-top: 50px;
+  margin-top: 10px;
   margin-bottom: 50px;
 }
 .day{
@@ -221,4 +221,16 @@ margin-bottom: 40px;
 }
 .continue_container3{
   margin-left: 120px;
+}
+.days_textcontainer{
+  margin-top:40px;
+  text-align: center;
+
+}
+.days_text{
+
+
+  color: #5b5757;
+  font-family: Poppins, sans-serif;
+  font-size: 12.5px;
 }
